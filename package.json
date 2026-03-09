@@ -6,14 +6,16 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "npm run build && wrangler dev",
     "add": "node scripts/add-url.mjs",
     "lint": "node -c scripts/add-url.mjs",
     "test": "node --test",
     "beacon:onevcat": "node scripts/check-onevcat-sources.mjs",
-    "beacon:onevcat:update": "node scripts/check-onevcat-sources.mjs --update"
+    "beacon:onevcat:update": "node scripts/check-onevcat-sources.mjs --update",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.12",
     "@mozilla/readability": "^0.6.0",
     "astro": "^5.0.0",
     "gray-matter": "^4.0.3",
@@ -26,5 +28,8 @@
     "turndown": "^7.2.0",
     "turndown-plugin-gfm": "^1.0.2",
     "undici": "^7.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.71.0"
   }
 }
