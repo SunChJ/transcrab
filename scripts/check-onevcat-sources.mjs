@@ -84,6 +84,30 @@ function topDomains(urls) {
   return [...m.entries()].sort((a, b) => b[1] - a[1]);
 }
 
+function extractXHandle(u) {
+  try {
+    const url = new URL(u);
+    if (url.hostname.toLowerCase() !== "x.com") return null;
+    const parts = url.pathname.split("/").filter(Boolean);
+    if (parts.length === 0) return null;
+    const handle = parts[0];
+    if (!handle || handle === "i") return null;
+    return handle;
+  } catch {
+    return null;
+  }
+}
+
+function topXHandles(urls) {
+  const m = new Map();
+  for (const u of urls) {
+    const h = extractXHandle(u);
+    if (!h) continue;
+    m.set(h, (m.get(h) || 0) + 1);
+  }
+  return [...m.entries()].sort((a, b) => b[1] - a[1]);
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const doUpdate = args.includes("--update");
@@ -99,6 +123,8 @@ async function main() {
   const links = extractOrigLinks(fetched.text);
   const uniqueLinks = [...new Set(links)];
 
+  const xHandles = topXHandles(uniqueLinks).map(([h]) => h);
+
   const snapshot = {
     homepage: HOMEPAGE,
     fetchedAt: new Date().toISOString(),
@@ -106,6 +132,8 @@ async function main() {
     hash: sha256(uniqueLinks.join("\n")),
     links: uniqueLinks,
     domains: topDomains(uniqueLinks).map(([d, c]) => ({ domain: d, count: c })),
+    xHandles,
+    xHandleCounts: topXHandles(uniqueLinks).map(([h, c]) => ({ handle: h, count: c })),
   };
 
   const result = {
@@ -116,6 +144,7 @@ async function main() {
       count: snapshot.count,
       hash: snapshot.hash,
       topDomains: snapshot.domains.slice(0, 12),
+      topXHandles: (snapshot.xHandleCounts || []).slice(0, 12),
     },
     previous: prev
       ? {
@@ -123,20 +152,38 @@ async function main() {
           count: prev.count,
           hash: prev.hash,
           topDomains: (prev.domains || []).slice(0, 12),
+          topXHandles: (prev.xHandleCounts || []).slice(0, 12),
         }
       : null,
   };
 
   if (prev?.links) {
     const { added, removed } = diffSets(prev.links, snapshot.links);
+    const prevHandles = Array.isArray(prev.xHandles) ? prev.xHandles : [];
+    const curHandles = Array.isArray(snapshot.xHandles) ? snapshot.xHandles : [];
+    const handlesDiff = diffSets(prevHandles, curHandles);
+
     result.diff = {
       addedCount: added.length,
       removedCount: removed.length,
       added: added.slice(0, 50),
       removed: removed.slice(0, 50),
+      xHandlesAddedCount: handlesDiff.added.length,
+      xHandlesRemovedCount: handlesDiff.removed.length,
+      xHandlesAdded: handlesDiff.added.slice(0, 50),
+      xHandlesRemoved: handlesDiff.removed.slice(0, 50),
     };
   } else {
-    result.diff = { addedCount: snapshot.links.length, removedCount: 0, added: snapshot.links.slice(0, 50), removed: [] };
+    result.diff = {
+      addedCount: snapshot.links.length,
+      removedCount: 0,
+      added: snapshot.links.slice(0, 50),
+      removed: [],
+      xHandlesAddedCount: (snapshot.xHandles || []).length,
+      xHandlesRemovedCount: 0,
+      xHandlesAdded: (snapshot.xHandles || []).slice(0, 50),
+      xHandlesRemoved: [],
+    };
   }
 
   if (doUpdate) {
