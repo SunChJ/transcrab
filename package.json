@@ -9,7 +9,9 @@
     "preview": "astro preview",
     "add": "node scripts/add-url.mjs",
     "lint": "node -c scripts/add-url.mjs",
-    "test": "node --test"
+    "test": "node --test",
+    "beacon:onevcat": "node scripts/check-onevcat-sources.mjs",
+    "beacon:onevcat:update": "node scripts/check-onevcat-sources.mjs --update"
   },
   "dependencies": {
     "@mozilla/readability": "^0.6.0",
