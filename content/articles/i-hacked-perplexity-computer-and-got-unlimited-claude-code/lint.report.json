@@ -1,0 +1,29 @@
+{
+  "before": {
+    "ok": false,
+    "score": 97,
+    "issues": [
+      {
+        "code": "duplicate-cn-punctuation",
+        "level": "low",
+        "index": 422,
+        "message": "重复中文标点，建议保留一个",
+        "excerpt": "？！"
+      }
+    ]
+  },
+  "after": {
+    "ok": false,
+    "score": 97,
+    "issues": [
+      {
+        "code": "duplicate-cn-punctuation",
+        "level": "low",
+        "index": 422,
+        "message": "重复中文标点，建议保留一个",
+        "excerpt": "？！"
+      }
+    ]
+  },
+  "autoFixed": false
+}

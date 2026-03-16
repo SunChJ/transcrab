@@ -1,0 +1,46 @@
+{
+  "slug": "i-hacked-perplexity-computer-and-got-unlimited-claude-code",
+  "title": "I hacked Perplexity Computer and got unlimited Claude Code",
+  "date": "2026-03-16T07:05:12.202Z",
+  "sourceUrl": "https://x.com/yousifastar/status/2032214543292850427?s=12&t=oDjsBy-f-VCdrYC6Q655dA",
+  "targetLang": "zh",
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "conversational",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "life",
+      "confidence": 0.76,
+      "resolved": {
+        "mode": "refined",
+        "style": "conversational",
+        "audience": "general",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 993,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 2,
+        "links": 0,
+        "businessHits": 0,
+        "lifeHits": 2,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "生活叙事关键词命中较高，判定为 life"
+      ]
+    }
+  }
+}
