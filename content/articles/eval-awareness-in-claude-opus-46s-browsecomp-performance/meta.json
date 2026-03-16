@@ -1,0 +1,46 @@
+{
+  "slug": "eval-awareness-in-claude-opus-46s-browsecomp-performance",
+  "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+  "date": "2026-03-16T07:51:10.344Z",
+  "sourceUrl": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+  "targetLang": "zh",
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.88,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 2058,
+        "codeBlocks": 1,
+        "tableRows": 0,
+        "headings": 7,
+        "links": 1,
+        "businessHits": 4,
+        "lifeHits": 1,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": true
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "检测到代码块或表格，判定为技术主题"
+      ]
+    }
+  }
+}
