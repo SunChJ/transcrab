@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "source": "/Users/samsoncj/transcrab/content/articles/from-pen-to-prompt-how-creative-writers-integrate-ai-into-their-writing-practice/source.md",
+  "outputDir": "/Users/samsoncj/transcrab/content/articles/from-pen-to-prompt-how-creative-writers-integrate-ai-into-their-writing-practice",
+  "config": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "storytelling",
+    "chunkThreshold": 4000,
+    "chunkMaxWords": 5000,
+    "glossary": []
+  },
+  "steps": [
+    "auto-analyze",
+    "translate"
+  ],
+  "artifacts": {
+    "analysis": "/Users/samsoncj/transcrab/content/articles/from-pen-to-prompt-how-creative-writers-integrate-ai-into-their-writing-practice/01-analysis.md",
+    "assembledPrompt": "/Users/samsoncj/transcrab/content/articles/from-pen-to-prompt-how-creative-writers-integrate-ai-into-their-writing-practice/02-prompt.md",
+    "draft": "/Users/samsoncj/transcrab/content/articles/from-pen-to-prompt-how-creative-writers-integrate-ai-into-their-writing-practice/03-draft.md",
+    "critique": "/Users/samsoncj/transcrab/content/articles/from-pen-to-prompt-how-creative-writers-integrate-ai-into-their-writing-practice/04-critique.md",
+    "revision": "/Users/samsoncj/transcrab/content/articles/from-pen-to-prompt-how-creative-writers-integrate-ai-into-their-writing-practice/05-revision.md",
+    "final": "/Users/samsoncj/transcrab/content/articles/from-pen-to-prompt-how-creative-writers-integrate-ai-into-their-writing-practice/translation.md"
+  },
+  "configPath": "/Users/samsoncj/transcrab/transcrab.translate.config.json",
+  "loadedFromFile": true,
+  "dryRun": false
+}
