@@ -1,5 +1,5 @@
 ---
-title: 'Lessons from Building Claude Code: How We Use Skills'
+title: '构建 Claude Code 的经验教训：我们如何使用 Skills'
 date: '2026-03-18T10:04:07.259Z'
 sourceUrl: 'https://x.com/trq212/status/2033949937936085378'
 lang: zh
