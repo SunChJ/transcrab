@@ -1,0 +1,46 @@
+{
+  "slug": "adk-skilltoolset-file-based-u0026-external-skills-tutorial-part-2",
+  "title": "\"ADK SkillToolset: File-Based \\u0026 External Skills Tutorial (Part 2)\"",
+  "date": "2026-03-18T09:54:48.531Z",
+  "sourceUrl": "https://lavinigam.com/posts/adk-agent-skills-part2/",
+  "targetLang": "zh",
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.88,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 2446,
+        "codeBlocks": 4,
+        "tableRows": 7,
+        "headings": 13,
+        "links": 37,
+        "businessHits": 1,
+        "lifeHits": 2,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": true
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "检测到代码块或表格，判定为技术主题"
+      ]
+    }
+  }
+}
