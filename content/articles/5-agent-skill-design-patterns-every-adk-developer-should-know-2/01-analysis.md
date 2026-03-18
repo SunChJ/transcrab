@@ -1,7 +1,7 @@
 # Analysis Notes
 
-- sourceTitle: 5 Agent Skill design patterns every ADK developer should know
-- sourceUrl: https://x.com/googlecloudtech/status/2033953579824758855?s=46
+- sourceTitle: "5 Agent Skill Design Patterns Every ADK Developer Should Know"
+- sourceUrl: https://lavinigam.com/posts/adk-skill-design-patterns/
 - requestedMode: auto
 - executionMode: refined
 - terminology: TODO

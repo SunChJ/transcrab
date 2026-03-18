@@ -1,7 +1,7 @@
 ---
 title: Revision Notes
-date: '2026-03-17T08:08:18.038Z'
-sourceUrl: 'https://arxiv.org/html/2411.03137v2'
+date: '2026-03-18T06:00:01.125Z'
+sourceUrl: 'https://lavinigam.com/posts/adk-skill-design-patterns/'
 lang: zh
 ---
 - changes applied: TODO

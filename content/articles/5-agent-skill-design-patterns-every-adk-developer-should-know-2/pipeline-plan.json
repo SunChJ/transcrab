@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "source": "/Users/samsoncj/transcrab/content/articles/5-agent-skill-design-patterns-every-adk-developer-should-know-2/source.md",
+  "outputDir": "/Users/samsoncj/transcrab/content/articles/5-agent-skill-design-patterns-every-adk-developer-should-know-2",
+  "config": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "storytelling",
+    "chunkThreshold": 4000,
+    "chunkMaxWords": 5000,
+    "glossary": []
+  },
+  "steps": [
+    "auto-analyze",
+    "translate"
+  ],
+  "artifacts": {
+    "analysis": "/Users/samsoncj/transcrab/content/articles/5-agent-skill-design-patterns-every-adk-developer-should-know-2/01-analysis.md",
+    "assembledPrompt": "/Users/samsoncj/transcrab/content/articles/5-agent-skill-design-patterns-every-adk-developer-should-know-2/02-prompt.md",
+    "draft": "/Users/samsoncj/transcrab/content/articles/5-agent-skill-design-patterns-every-adk-developer-should-know-2/03-draft.md",
+    "critique": "/Users/samsoncj/transcrab/content/articles/5-agent-skill-design-patterns-every-adk-developer-should-know-2/04-critique.md",
+    "revision": "/Users/samsoncj/transcrab/content/articles/5-agent-skill-design-patterns-every-adk-developer-should-know-2/05-revision.md",
+    "final": "/Users/samsoncj/transcrab/content/articles/5-agent-skill-design-patterns-every-adk-developer-should-know-2/translation.md"
+  },
+  "configPath": "/Users/samsoncj/transcrab/transcrab.translate.config.json",
+  "loadedFromFile": true,
+  "dryRun": false
+}
