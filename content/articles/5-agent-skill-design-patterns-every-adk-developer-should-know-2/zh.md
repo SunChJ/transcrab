@@ -1,5 +1,5 @@
 ---
-title: ADK 技能设计模式
+title: ADK 开发者必知的 5 种智能体技能设计模式
 date: '2026-03-18T06:00:01.125Z'
 sourceUrl: 'https://lavinigam.com/posts/adk-skill-design-patterns/'
 lang: zh
