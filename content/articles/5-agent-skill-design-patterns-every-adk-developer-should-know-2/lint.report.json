@@ -1,13 +1,56 @@
 {
   "before": {
-    "ok": true,
-    "score": 100,
-    "issues": []
+    "ok": false,
+    "score": 52,
+    "issues": [
+      {
+        "code": "ascii-punctuation-near-cjk",
+        "level": "medium",
+        "index": 10690,
+        "message": "检测到中文邻近英文标点，建议替换为中文标点",
+        "excerpt": "度:"
+      },
+      {
+        "code": "ascii-punctuation-near-cjk",
+        "level": "medium",
+        "index": 10707,
+        "message": "检测到中文邻近英文标点，建议替换为中文标点",
+        "excerpt": "度:"
+      },
+      {
+        "code": "ascii-punctuation-near-cjk",
+        "level": "medium",
+        "index": 10726,
+        "message": "检测到中文邻近英文标点，建议替换为中文标点",
+        "excerpt": "度:"
+      },
+      {
+        "code": "ascii-punctuation-near-cjk",
+        "level": "medium",
+        "index": 10742,
+        "message": "检测到中文邻近英文标点，建议替换为中文标点",
+        "excerpt": "度:"
+      },
+      {
+        "code": "ascii-punctuation-near-cjk",
+        "level": "medium",
+        "index": 10759,
+        "message": "检测到中文邻近英文标点，建议替换为中文标点",
+        "excerpt": "度:"
+      },
+      {
+        "code": "ascii-punctuation-near-cjk",
+        "level": "medium",
+        "index": 14963,
+        "message": "检测到中文邻近英文标点，建议替换为中文标点",
+        "excerpt": "景."
+      }
+    ]
   },
   "after": {
     "ok": true,
     "score": 100,
     "issues": []
   },
-  "autoFixed": false
+  "autoFixed": true
 }
