@@ -1,5 +1,5 @@
 ---
-title: Claude Code 中的 Agent Skills：提升开发效率的实践与教训
+title: 'Lessons from Building Claude Code: How We Use Skills'
 date: '2026-03-18T10:04:07.259Z'
 sourceUrl: 'https://x.com/trq212/status/2033949937936085378'
 lang: zh
