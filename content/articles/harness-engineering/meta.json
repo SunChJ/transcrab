@@ -1,0 +1,30 @@
+{
+  "slug": "harness-engineering",
+  "title": "Harness engineering: leveraging Codex in an agent-first world | OpenAI",
+  "date": "2026-03-19T14:02:00.000Z",
+  "sourceUrl": "https://openai.com/index/harness-engineering/",
+  "targetLang": "zh",
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.9,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      }
+    }
+  }
+}
