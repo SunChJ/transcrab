@@ -1,0 +1,78 @@
+{
+  "profile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "chunkThreshold": 4000,
+    "chunkMaxWords": 5000,
+    "glossary": []
+  },
+  "configuredProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "storytelling",
+    "chunkThreshold": 4000,
+    "chunkMaxWords": 5000,
+    "glossary": []
+  },
+  "autoProfile": {
+    "requestedMode": "auto",
+    "topic": "technology",
+    "confidence": 0.88,
+    "resolved": {
+      "mode": "refined",
+      "style": "technical",
+      "audience": "technical",
+      "chunkThreshold": 4000,
+      "chunkMaxWords": 5000,
+      "glossary": []
+    },
+    "metrics": {
+      "words": 2885,
+      "codeBlocks": 5,
+      "tableRows": 0,
+      "headings": 30,
+      "links": 6,
+      "businessHits": 3,
+      "lifeHits": 3,
+      "isLong": true,
+      "isVeryLong": false,
+      "isTechnical": true
+    },
+    "reasons": [
+      "公开发布默认使用 refined 流程，优先质量与稳定性",
+      "检测到代码块或表格，判定为技术主题",
+      "篇幅较长，refined 可降低术语漂移与结构风险"
+    ]
+  },
+  "steps": [
+    "auto-analyze",
+    "translate"
+  ],
+  "executionMode": "refined",
+  "executionSteps": [
+    "analyze",
+    "translate",
+    "review",
+    "revise"
+  ],
+  "artifacts": {
+    "analysis": "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/01-analysis.md",
+    "assembledPrompt": "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/02-prompt.md",
+    "draft": "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/03-draft.md",
+    "critique": "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/04-critique.md",
+    "revision": "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/05-revision.md",
+    "final": "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/translation.md"
+  },
+  "promptPath": "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/translate.prompt.txt",
+  "promptCompatPath": "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/translate.zh.prompt.txt",
+  "createdFiles": [
+    "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/02-prompt.md",
+    "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/01-analysis.md",
+    "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/03-draft.md",
+    "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/04-critique.md",
+    "/Users/samsoncj/transcrab/content/articles/designing-delightful-frontends-with-gpt-54-or-openai-developers/05-revision.md"
+  ],
+  "configPath": "/Users/samsoncj/transcrab/transcrab.translate.config.json",
+  "loadedFromFile": true
+}

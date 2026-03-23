@@ -1,0 +1,47 @@
+{
+  "slug": "designing-delightful-frontends-with-gpt-54-or-openai-developers",
+  "title": "Designing delightful frontends with GPT-5.4 | OpenAI Developers",
+  "date": "2026-03-23T01:58:35.808Z",
+  "sourceUrl": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4",
+  "targetLang": "zh",
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.88,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 2885,
+        "codeBlocks": 5,
+        "tableRows": 0,
+        "headings": 30,
+        "links": 6,
+        "businessHits": 3,
+        "lifeHits": 3,
+        "isLong": true,
+        "isVeryLong": false,
+        "isTechnical": true
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "检测到代码块或表格，判定为技术主题",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}
