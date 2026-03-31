@@ -1,0 +1,46 @@
+{
+  "slug": "agent-interaction-guidelines-aig-linear-developers",
+  "title": "Agent Interaction Guidelines (AIG) – Linear Developers",
+  "date": "2026-03-31T08:02:24.060Z",
+  "sourceUrl": "https://linear.app/developers/aig",
+  "targetLang": "zh",
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.52,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 521,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 8,
+        "links": 15,
+        "businessHits": 0,
+        "lifeHits": 1,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "主题信号不明显，回退到 technology"
+      ]
+    }
+  }
+}
