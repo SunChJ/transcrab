@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 474,
+    "metrics": {
+      "chars": 9534,
+      "paragraphs": 41,
+      "headings": 7,
+      "codeFences": 2,
+      "images": 1,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 474
+    },
+    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 474,
+      "metrics": {
+        "chars": 9534,
+        "paragraphs": 41,
+        "headings": 7,
+        "codeFences": 2,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack"
+    },
+    {
+      "source": "variant-readability",
+      "score": 474,
+      "metrics": {
+        "chars": 9534,
+        "paragraphs": 41,
+        "headings": 7,
+        "codeFences": 2,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 474,
+      "metrics": {
+        "chars": 9534,
+        "paragraphs": 41,
+        "headings": 7,
+        "codeFences": 2,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 474,
+      "metrics": {
+        "chars": 9534,
+        "paragraphs": 41,
+        "headings": 7,
+        "codeFences": 2,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 474,
+      "metrics": {
+        "chars": 9534,
+        "paragraphs": 41,
+        "headings": 7,
+        "codeFences": 2,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack?view=amp"
+    }
+  ]
+}
