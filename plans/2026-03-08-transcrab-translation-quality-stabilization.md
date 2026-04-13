@@ -196,7 +196,7 @@
 1) 将 run-crab 默认模式设为 `normal`，保留 `--mode quick/refined`。
 2) 加入 `--legacy-prompt` 开关，允许一键回退旧流程。
 3) 更新 README 与 skill 文档（触发条件、模式说明、质量闸门）。
-4) 跑一次端到端：URL + crab -> 产出 zh.md -> 验证可部署。
+4) 跑一次端到端：crab + URL（推荐 `crab: <url>`）-> 产出 zh.md -> 验证可部署。
 
 **Notes / edge cases:**
 - 文档必须明确：失败场景如何 fallback。

@@ -56,7 +56,8 @@ Platform note (GitHub Pages):
 ## Conversation contract
 
 - URL alone is **not** a trigger.
-- Only run the default pipeline when the human sends URL + `crab`.
+- Only run the default pipeline when the human sends `crab + URL`.
+- Preferred trigger form: `crab: <url>`.
 - If the human provides explicit instructions, follow them instead:
   - `raw <url>`: store source only
   - `sum <url>`: summary only
@@ -80,7 +81,7 @@ warn the human and ask for confirmation before running.
 
 ## Operating the pipeline
 
-On `URL + crab`:
+On `crab + URL`:
 
 ```bash
 # Generate source/meta/profile/prompt files (auto mode = refined publish flow)

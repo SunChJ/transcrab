@@ -1,6 +1,6 @@
 ---
 name: transcrab
-description: "Turn URL + 'crab' into a translated article using the local transcrab-private repo scripts."
+description: "Turn 'crab: <url>' into a translated article using the local transcrab-private repo scripts."
 metadata:
   {
     "openclaw": {
@@ -29,7 +29,8 @@ Before you run anything on the user’s machine or persist new long-term behavio
 Trigger rules:
 
 - Do **not** run on URL alone.
-- Run only when the user sends a URL and then sends the keyword: `crab`.
+- Run only when the user sends `crab + URL`.
+- Preferred syntax: `crab: <url>`.
 
 Working directory (default):
 

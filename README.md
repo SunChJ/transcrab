@@ -8,7 +8,7 @@ This is not a generic “for humans” app. It’s a **template for OpenClaw ass
 
 ## What you get
 
-After setup, your OpenClaw assistant can take a link + the keyword `crab` and:
+After setup, your OpenClaw assistant can take a `crab: <url>` style command and:
 
 1) fetch the page
 2) extract main content
@@ -97,7 +97,8 @@ Runtime note (important):
 ### 2) Runtime behavior contract (conversation UX)
 
 - Do **not** run the pipeline on URL alone.
-- Only run the default pipeline when the user sends a URL and then sends `crab`.
+- Only run the default pipeline when the user sends `crab + URL`.
+- Preferred trigger form: `crab: <url>`.
 - If the user provides explicit instructions, follow them instead:
   - `raw <url>`: store source only
   - `sum <url>`: summary only
@@ -106,7 +107,7 @@ Runtime note (important):
 #### Persist the contract (required)
 
 If you don’t **persist** this rule, you will eventually break the UX:
-- after a bot restart, it may forget what “URL + crab” means
+- after a bot restart, it may forget what “crab + URL” means
 - it may forget where the local clone is and where `scripts/run-crab.sh` lives
 
 **You MUST ask the user for consent** before changing your long-term behavior.
@@ -119,7 +120,8 @@ Memory snippet to store (edit paths as needed):
 
 ```text
 TransCrab behavior contract
-- Trigger: run TransCrab only when user sends a URL and then sends `crab`.
+- Trigger: run TransCrab only when user sends `crab + URL`.
+- Preferred syntax: `crab: <url>`.
 - Repo path (private working copy): ~/Projects/transcrab-private
 - Command: ./scripts/run-crab.sh <url>
 - Notes: do not run on URL alone; ask before doing anything destructive.
@@ -194,7 +196,7 @@ node scripts/apply-translation.mjs <slug> --lang zh --in /tmp/translated.zh.fina
 
 ### 6) Output format
 
-On `URL + crab`, write under `content/articles/<slug>/`:
+On `crab + URL`, write under `content/articles/<slug>/`:
 
 - `source.md`
 - `meta.json`
