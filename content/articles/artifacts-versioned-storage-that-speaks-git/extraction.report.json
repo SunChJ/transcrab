@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 747,
+    "metrics": {
+      "chars": 17842,
+      "paragraphs": 65,
+      "headings": 9,
+      "codeFences": 3,
+      "images": 1,
+      "htmlFigures": 2,
+      "inlineSvgs": 0,
+      "score": 747
+    },
+    "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 747,
+      "metrics": {
+        "chars": 17842,
+        "paragraphs": 65,
+        "headings": 9,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 747
+      },
+      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 747,
+      "metrics": {
+        "chars": 17842,
+        "paragraphs": 65,
+        "headings": 9,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 747
+      },
+      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 747,
+      "metrics": {
+        "chars": 17842,
+        "paragraphs": 65,
+        "headings": 9,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 747
+      },
+      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 747,
+      "metrics": {
+        "chars": 17842,
+        "paragraphs": 65,
+        "headings": 9,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 747
+      },
+      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 747,
+      "metrics": {
+        "chars": 17842,
+        "paragraphs": 65,
+        "headings": 9,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 747
+      },
+      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/?view=amp"
+    }
+  ]
+}
