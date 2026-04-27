@@ -1,0 +1,146 @@
+{
+  "slug": "why-when-and-how-to-use-a-first-touch-attribution-model",
+  "title": "Why, when and how to use a first-touch attribution model",
+  "date": "2026-04-27T03:23:57.681Z",
+  "sourceUrl": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 521,
+      "metrics": {
+        "chars": 9048,
+        "paragraphs": 47,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 521
+      },
+      "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 521,
+        "metrics": {
+          "chars": 9048,
+          "paragraphs": 47,
+          "headings": 5,
+          "codeFences": 5,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 521
+        },
+        "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com"
+      },
+      {
+        "source": "variant-readability",
+        "score": 521,
+        "metrics": {
+          "chars": 9048,
+          "paragraphs": 47,
+          "headings": 5,
+          "codeFences": 5,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 521
+        },
+        "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com&output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 521,
+        "metrics": {
+          "chars": 9048,
+          "paragraphs": 47,
+          "headings": 5,
+          "codeFences": 5,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 521
+        },
+        "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com&amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 521,
+        "metrics": {
+          "chars": 9048,
+          "paragraphs": 47,
+          "headings": 5,
+          "codeFences": 5,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 521
+        },
+        "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com&print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 521,
+        "metrics": {
+          "chars": 9048,
+          "paragraphs": 47,
+          "headings": 5,
+          "codeFences": 5,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 521
+        },
+        "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com&view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.88,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 1456,
+        "codeBlocks": 5,
+        "tableRows": 0,
+        "headings": 5,
+        "links": 2,
+        "businessHits": 1,
+        "lifeHits": 1,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": true
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "检测到代码块或表格，判定为技术主题"
+      ]
+    }
+  }
+}

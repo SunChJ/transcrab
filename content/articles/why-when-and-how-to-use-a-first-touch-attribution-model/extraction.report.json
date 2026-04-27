@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 521,
+    "metrics": {
+      "chars": 9048,
+      "paragraphs": 47,
+      "headings": 5,
+      "codeFences": 5,
+      "images": 0,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 521
+    },
+    "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 521,
+      "metrics": {
+        "chars": 9048,
+        "paragraphs": 47,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 521
+      },
+      "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com"
+    },
+    {
+      "source": "variant-readability",
+      "score": 521,
+      "metrics": {
+        "chars": 9048,
+        "paragraphs": 47,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 521
+      },
+      "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com&output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 521,
+      "metrics": {
+        "chars": 9048,
+        "paragraphs": 47,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 521
+      },
+      "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com&amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 521,
+      "metrics": {
+        "chars": 9048,
+        "paragraphs": 47,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 521
+      },
+      "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com&print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 521,
+      "metrics": {
+        "chars": 9048,
+        "paragraphs": 47,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 521
+      },
+      "url": "https://hex.tech/blog/building-a-first-touch-attribution-model/?utm_source=chatgpt.com&view=amp"
+    }
+  ]
+}
