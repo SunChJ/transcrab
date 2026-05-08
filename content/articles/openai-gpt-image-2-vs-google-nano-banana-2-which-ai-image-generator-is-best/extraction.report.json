@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 1117,
+    "metrics": {
+      "chars": 54491,
+      "paragraphs": 79,
+      "headings": 5,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 17,
+      "inlineSvgs": 0,
+      "score": 1117
+    },
+    "url": "https://decrypt.co/366408/openai-gpt-image-2-vs-google-nano-banana-2-review"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 1117,
+      "metrics": {
+        "chars": 54491,
+        "paragraphs": 79,
+        "headings": 5,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 17,
+        "inlineSvgs": 0,
+        "score": 1117
+      },
+      "url": "https://decrypt.co/366408/openai-gpt-image-2-vs-google-nano-banana-2-review"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1117,
+      "metrics": {
+        "chars": 54491,
+        "paragraphs": 79,
+        "headings": 5,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 17,
+        "inlineSvgs": 0,
+        "score": 1117
+      },
+      "url": "https://decrypt.co/366408/openai-gpt-image-2-vs-google-nano-banana-2-review?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 599,
+      "metrics": {
+        "chars": 14604,
+        "paragraphs": 53,
+        "headings": 11,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 599
+      },
+      "url": "https://decrypt.co/366408/openai-gpt-image-2-vs-google-nano-banana-2-review?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1117,
+      "metrics": {
+        "chars": 54491,
+        "paragraphs": 79,
+        "headings": 5,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 17,
+        "inlineSvgs": 0,
+        "score": 1117
+      },
+      "url": "https://decrypt.co/366408/openai-gpt-image-2-vs-google-nano-banana-2-review?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1117,
+      "metrics": {
+        "chars": 54491,
+        "paragraphs": 79,
+        "headings": 5,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 17,
+        "inlineSvgs": 0,
+        "score": 1117
+      },
+      "url": "https://decrypt.co/366408/openai-gpt-image-2-vs-google-nano-banana-2-review?view=amp"
+    }
+  ]
+}
