@@ -1,0 +1,75 @@
+{
+  "slug": "what-to-learn-build-and-skip-in-ai-agents-2026",
+  "title": "What to Learn, Build, and Skip in AI Agents (2026)",
+  "date": "2026-05-08T02:04:56.383Z",
+  "sourceUrl": "https://x.com/rohit4verse/status/2049548305408131349?s=46&t=oDjsBy-f-VCdrYC6Q655dA",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "x-article",
+      "score": 999
+    },
+    "candidates": [
+      {
+        "source": "x-article",
+        "score": 999,
+        "metrics": {
+          "chars": 30244,
+          "paragraphs": 113,
+          "headings": 8,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1064
+        }
+      }
+    ],
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    }
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "business",
+    "style": "business",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "business",
+      "confidence": 0.78,
+      "resolved": {
+        "mode": "refined",
+        "style": "business",
+        "audience": "business",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 4872,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 8,
+        "links": 0,
+        "businessHits": 8,
+        "lifeHits": 4,
+        "isLong": true,
+        "isVeryLong": true,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "商业关键词命中较高，判定为 business",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}
