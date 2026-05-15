@@ -1,0 +1,147 @@
+{
+  "slug": "a-technical-deep-dive-into-the-new-raycast-raycast-blog",
+  "title": "A Technical Deep Dive Into the New Raycast - Raycast Blog",
+  "date": "2026-05-15T02:36:53.852Z",
+  "sourceUrl": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 644,
+      "metrics": {
+        "chars": 27588,
+        "paragraphs": 53,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 644
+      },
+      "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 644,
+        "metrics": {
+          "chars": 27588,
+          "paragraphs": 53,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 1,
+          "inlineSvgs": 0,
+          "score": 644
+        },
+        "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast"
+      },
+      {
+        "source": "variant-readability",
+        "score": 644,
+        "metrics": {
+          "chars": 27588,
+          "paragraphs": 53,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 1,
+          "inlineSvgs": 0,
+          "score": 644
+        },
+        "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 644,
+        "metrics": {
+          "chars": 27588,
+          "paragraphs": 53,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 1,
+          "inlineSvgs": 0,
+          "score": 644
+        },
+        "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 644,
+        "metrics": {
+          "chars": 27588,
+          "paragraphs": 53,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 1,
+          "inlineSvgs": 0,
+          "score": 644
+        },
+        "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 644,
+        "metrics": {
+          "chars": 27588,
+          "paragraphs": 53,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 1,
+          "inlineSvgs": 0,
+          "score": 644
+        },
+        "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "conversational",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "life",
+      "confidence": 0.76,
+      "resolved": {
+        "mode": "refined",
+        "style": "conversational",
+        "audience": "general",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 4550,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 16,
+        "links": 21,
+        "businessHits": 0,
+        "lifeHits": 5,
+        "isLong": true,
+        "isVeryLong": true,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "生活叙事关键词命中较高，判定为 life",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}

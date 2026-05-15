@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 644,
+    "metrics": {
+      "chars": 27588,
+      "paragraphs": 53,
+      "headings": 16,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 1,
+      "inlineSvgs": 0,
+      "score": 644
+    },
+    "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 644,
+      "metrics": {
+        "chars": 27588,
+        "paragraphs": 53,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 644
+      },
+      "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast"
+    },
+    {
+      "source": "variant-readability",
+      "score": 644,
+      "metrics": {
+        "chars": 27588,
+        "paragraphs": 53,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 644
+      },
+      "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 644,
+      "metrics": {
+        "chars": 27588,
+        "paragraphs": 53,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 644
+      },
+      "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 644,
+      "metrics": {
+        "chars": 27588,
+        "paragraphs": 53,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 644
+      },
+      "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 644,
+      "metrics": {
+        "chars": 27588,
+        "paragraphs": 53,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 644
+      },
+      "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast?view=amp"
+    }
+  ]
+}
