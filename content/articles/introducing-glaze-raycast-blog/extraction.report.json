@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 112,
+    "metrics": {
+      "chars": 2459,
+      "paragraphs": 9,
+      "headings": 3,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 112
+    },
+    "url": "https://www.raycast.com/blog/introducing-glaze"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 112,
+      "metrics": {
+        "chars": 2459,
+        "paragraphs": 9,
+        "headings": 3,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 112
+      },
+      "url": "https://www.raycast.com/blog/introducing-glaze"
+    },
+    {
+      "source": "variant-readability",
+      "score": 112,
+      "metrics": {
+        "chars": 2459,
+        "paragraphs": 9,
+        "headings": 3,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 112
+      },
+      "url": "https://www.raycast.com/blog/introducing-glaze?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 112,
+      "metrics": {
+        "chars": 2459,
+        "paragraphs": 9,
+        "headings": 3,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 112
+      },
+      "url": "https://www.raycast.com/blog/introducing-glaze?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 112,
+      "metrics": {
+        "chars": 2459,
+        "paragraphs": 9,
+        "headings": 3,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 112
+      },
+      "url": "https://www.raycast.com/blog/introducing-glaze?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 112,
+      "metrics": {
+        "chars": 2459,
+        "paragraphs": 9,
+        "headings": 3,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 112
+      },
+      "url": "https://www.raycast.com/blog/introducing-glaze?view=amp"
+    }
+  ]
+}
