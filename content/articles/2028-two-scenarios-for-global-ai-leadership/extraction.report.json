@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 728,
+    "metrics": {
+      "chars": 43989,
+      "paragraphs": 66,
+      "headings": 16,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 728
+    },
+    "url": "https://www.anthropic.com/research/2028-ai-leadership"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 728,
+      "metrics": {
+        "chars": 43989,
+        "paragraphs": 66,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 728
+      },
+      "url": "https://www.anthropic.com/research/2028-ai-leadership"
+    },
+    {
+      "source": "variant-readability",
+      "score": 728,
+      "metrics": {
+        "chars": 43989,
+        "paragraphs": 66,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 728
+      },
+      "url": "https://www.anthropic.com/research/2028-ai-leadership?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 728,
+      "metrics": {
+        "chars": 43989,
+        "paragraphs": 66,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 728
+      },
+      "url": "https://www.anthropic.com/research/2028-ai-leadership?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 728,
+      "metrics": {
+        "chars": 43989,
+        "paragraphs": 66,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 728
+      },
+      "url": "https://www.anthropic.com/research/2028-ai-leadership?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 728,
+      "metrics": {
+        "chars": 43989,
+        "paragraphs": 66,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 728
+      },
+      "url": "https://www.anthropic.com/research/2028-ai-leadership?view=amp"
+    }
+  ]
+}

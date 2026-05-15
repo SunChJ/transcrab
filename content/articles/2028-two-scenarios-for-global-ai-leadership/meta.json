@@ -1,0 +1,147 @@
+{
+  "slug": "2028-two-scenarios-for-global-ai-leadership",
+  "title": "2028: Two scenarios for global AI leadership",
+  "date": "2026-05-15T02:20:35.567Z",
+  "sourceUrl": "https://www.anthropic.com/research/2028-ai-leadership",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 728,
+      "metrics": {
+        "chars": 43989,
+        "paragraphs": 66,
+        "headings": 16,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 728
+      },
+      "url": "https://www.anthropic.com/research/2028-ai-leadership"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 728,
+        "metrics": {
+          "chars": 43989,
+          "paragraphs": 66,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 728
+        },
+        "url": "https://www.anthropic.com/research/2028-ai-leadership"
+      },
+      {
+        "source": "variant-readability",
+        "score": 728,
+        "metrics": {
+          "chars": 43989,
+          "paragraphs": 66,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 728
+        },
+        "url": "https://www.anthropic.com/research/2028-ai-leadership?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 728,
+        "metrics": {
+          "chars": 43989,
+          "paragraphs": 66,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 728
+        },
+        "url": "https://www.anthropic.com/research/2028-ai-leadership?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 728,
+        "metrics": {
+          "chars": 43989,
+          "paragraphs": 66,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 728
+        },
+        "url": "https://www.anthropic.com/research/2028-ai-leadership?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 728,
+        "metrics": {
+          "chars": 43989,
+          "paragraphs": 66,
+          "headings": 16,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 728
+        },
+        "url": "https://www.anthropic.com/research/2028-ai-leadership?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "business",
+    "style": "business",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "business",
+      "confidence": 0.78,
+      "resolved": {
+        "mode": "refined",
+        "style": "business",
+        "audience": "business",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 5508,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 16,
+        "links": 95,
+        "businessHits": 7,
+        "lifeHits": 3,
+        "isLong": true,
+        "isVeryLong": true,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "商业关键词命中较高，判定为 business",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}
