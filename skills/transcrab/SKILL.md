@@ -90,7 +90,7 @@ git push origin HEAD
 5) Verify deployment before replying:
 
 ```bash
-curl -I -L https://transcrab.onev.cat/a/<yyyy>/<mm>/<slug>/
+curl -I -L https://transcrab.samsoncj.link/a/<yyyy>/<mm>/<slug>/
 ```
 
 Only reply with the final page URL after it returns **200**.
