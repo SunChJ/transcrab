@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 547,
+    "metrics": {
+      "chars": 19850,
+      "paragraphs": 39,
+      "headings": 7,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 4,
+      "inlineSvgs": 0,
+      "score": 547
+    },
+    "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 547,
+      "metrics": {
+        "chars": 19850,
+        "paragraphs": 39,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 4,
+        "inlineSvgs": 0,
+        "score": 547
+      },
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start"
+    },
+    {
+      "source": "variant-readability",
+      "score": 547,
+      "metrics": {
+        "chars": 19850,
+        "paragraphs": 39,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 4,
+        "inlineSvgs": 0,
+        "score": 547
+      },
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 547,
+      "metrics": {
+        "chars": 19850,
+        "paragraphs": 39,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 4,
+        "inlineSvgs": 0,
+        "score": 547
+      },
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 547,
+      "metrics": {
+        "chars": 19850,
+        "paragraphs": 39,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 4,
+        "inlineSvgs": 0,
+        "score": 547
+      },
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 547,
+      "metrics": {
+        "chars": 19850,
+        "paragraphs": 39,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 4,
+        "inlineSvgs": 0,
+        "score": 547
+      },
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start?view=amp"
+    }
+  ]
+}
