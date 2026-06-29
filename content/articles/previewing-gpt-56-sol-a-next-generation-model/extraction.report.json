@@ -1,0 +1,4 @@
+{
+  "source": "manual-browser-fallback",
+  "reason": "scripts/run-crab.sh received HTTP 403 from OpenAI; body captured from browser-rendered page."
+}
