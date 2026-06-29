@@ -1,0 +1,147 @@
+{
+  "slug": "how-llms-actually-work",
+  "title": "How LLMs Actually Work",
+  "date": "2026-06-29T03:54:38.674Z",
+  "sourceUrl": "https://www.0xkato.xyz/how-llms-actually-work/",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 1162,
+      "metrics": {
+        "chars": 30698,
+        "paragraphs": 120,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 8,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1162
+      },
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 1162,
+        "metrics": {
+          "chars": 30698,
+          "paragraphs": 120,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 8,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1162
+        },
+        "url": "https://www.0xkato.xyz/how-llms-actually-work/"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1162,
+        "metrics": {
+          "chars": 30698,
+          "paragraphs": 120,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 8,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1162
+        },
+        "url": "https://www.0xkato.xyz/how-llms-actually-work/?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1162,
+        "metrics": {
+          "chars": 30698,
+          "paragraphs": 120,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 8,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1162
+        },
+        "url": "https://www.0xkato.xyz/how-llms-actually-work/?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1162,
+        "metrics": {
+          "chars": 30698,
+          "paragraphs": 120,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 8,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1162
+        },
+        "url": "https://www.0xkato.xyz/how-llms-actually-work/?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1162,
+        "metrics": {
+          "chars": 30698,
+          "paragraphs": 120,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 8,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1162
+        },
+        "url": "https://www.0xkato.xyz/how-llms-actually-work/?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "conversational",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "life",
+      "confidence": 0.76,
+      "resolved": {
+        "mode": "refined",
+        "style": "conversational",
+        "audience": "general",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 4833,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 10,
+        "links": 14,
+        "businessHits": 0,
+        "lifeHits": 7,
+        "isLong": true,
+        "isVeryLong": true,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "生活叙事关键词命中较高，判定为 life",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}

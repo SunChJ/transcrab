@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 1162,
+    "metrics": {
+      "chars": 30698,
+      "paragraphs": 120,
+      "headings": 10,
+      "codeFences": 0,
+      "images": 8,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 1162
+    },
+    "url": "https://www.0xkato.xyz/how-llms-actually-work/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 1162,
+      "metrics": {
+        "chars": 30698,
+        "paragraphs": 120,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 8,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1162
+      },
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1162,
+      "metrics": {
+        "chars": 30698,
+        "paragraphs": 120,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 8,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1162
+      },
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1162,
+      "metrics": {
+        "chars": 30698,
+        "paragraphs": 120,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 8,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1162
+      },
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1162,
+      "metrics": {
+        "chars": 30698,
+        "paragraphs": 120,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 8,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1162
+      },
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1162,
+      "metrics": {
+        "chars": 30698,
+        "paragraphs": 120,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 8,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1162
+      },
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/?view=amp"
+    }
+  ]
+}
