@@ -1,0 +1,35 @@
+{
+  "before": {
+    "ok": false,
+    "score": 76,
+    "issues": [
+      {
+        "code": "ascii-punctuation-near-cjk",
+        "level": "medium",
+        "index": 8069,
+        "message": "检测到中文邻近英文标点，建议替换为中文标点",
+        "excerpt": "过."
+      },
+      {
+        "code": "ascii-punctuation-near-cjk",
+        "level": "medium",
+        "index": 9140,
+        "message": "检测到中文邻近英文标点，建议替换为中文标点",
+        "excerpt": ".专"
+      },
+      {
+        "code": "ascii-punctuation-near-cjk",
+        "level": "medium",
+        "index": 9894,
+        "message": "检测到中文邻近英文标点，建议替换为中文标点",
+        "excerpt": "的,"
+      }
+    ]
+  },
+  "after": {
+    "ok": true,
+    "score": 100,
+    "issues": []
+  },
+  "autoFixed": true
+}
