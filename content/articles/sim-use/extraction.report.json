@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 964,
+    "metrics": {
+      "chars": 21994,
+      "paragraphs": 86,
+      "headings": 12,
+      "codeFences": 6,
+      "images": 0,
+      "htmlFigures": 3,
+      "inlineSvgs": 0,
+      "score": 964
+    },
+    "url": "https://techblog.lycorp.co.jp/ja/20260701b"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 964,
+      "metrics": {
+        "chars": 21994,
+        "paragraphs": 86,
+        "headings": 12,
+        "codeFences": 6,
+        "images": 0,
+        "htmlFigures": 3,
+        "inlineSvgs": 0,
+        "score": 964
+      },
+      "url": "https://techblog.lycorp.co.jp/ja/20260701b"
+    },
+    {
+      "source": "variant-readability",
+      "score": 964,
+      "metrics": {
+        "chars": 21994,
+        "paragraphs": 86,
+        "headings": 12,
+        "codeFences": 6,
+        "images": 0,
+        "htmlFigures": 3,
+        "inlineSvgs": 0,
+        "score": 964
+      },
+      "url": "https://techblog.lycorp.co.jp/ja/20260701b?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 964,
+      "metrics": {
+        "chars": 21994,
+        "paragraphs": 86,
+        "headings": 12,
+        "codeFences": 6,
+        "images": 0,
+        "htmlFigures": 3,
+        "inlineSvgs": 0,
+        "score": 964
+      },
+      "url": "https://techblog.lycorp.co.jp/ja/20260701b?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 964,
+      "metrics": {
+        "chars": 21994,
+        "paragraphs": 86,
+        "headings": 12,
+        "codeFences": 6,
+        "images": 0,
+        "htmlFigures": 3,
+        "inlineSvgs": 0,
+        "score": 964
+      },
+      "url": "https://techblog.lycorp.co.jp/ja/20260701b?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 964,
+      "metrics": {
+        "chars": 21994,
+        "paragraphs": 86,
+        "headings": 12,
+        "codeFences": 6,
+        "images": 0,
+        "htmlFigures": 3,
+        "inlineSvgs": 0,
+        "score": 964
+      },
+      "url": "https://techblog.lycorp.co.jp/ja/20260701b?view=amp"
+    }
+  ]
+}
