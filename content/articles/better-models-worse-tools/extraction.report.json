@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 540,
+    "metrics": {
+      "chars": 14664,
+      "paragraphs": 45,
+      "headings": 6,
+      "codeFences": 5,
+      "images": 0,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 540
+    },
+    "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 540,
+      "metrics": {
+        "chars": 14664,
+        "paragraphs": 45,
+        "headings": 6,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 540
+      },
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 540,
+      "metrics": {
+        "chars": 14664,
+        "paragraphs": 45,
+        "headings": 6,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 540
+      },
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 540,
+      "metrics": {
+        "chars": 14664,
+        "paragraphs": 45,
+        "headings": 6,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 540
+      },
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 540,
+      "metrics": {
+        "chars": 14664,
+        "paragraphs": 45,
+        "headings": 6,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 540
+      },
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 540,
+      "metrics": {
+        "chars": 14664,
+        "paragraphs": 45,
+        "headings": 6,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 540
+      },
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/?view=amp"
+    }
+  ]
+}
