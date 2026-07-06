@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 452,
+    "metrics": {
+      "chars": 8785,
+      "paragraphs": 43,
+      "headings": 0,
+      "codeFences": 2,
+      "images": 2,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 452
+    },
+    "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 0
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 452,
+      "metrics": {
+        "chars": 8785,
+        "paragraphs": 43,
+        "headings": 0,
+        "codeFences": 2,
+        "images": 2,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 452
+      },
+      "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 452,
+      "metrics": {
+        "chars": 8785,
+        "paragraphs": 43,
+        "headings": 0,
+        "codeFences": 2,
+        "images": 2,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 452
+      },
+      "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 452,
+      "metrics": {
+        "chars": 8785,
+        "paragraphs": 43,
+        "headings": 0,
+        "codeFences": 2,
+        "images": 2,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 452
+      },
+      "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 452,
+      "metrics": {
+        "chars": 8785,
+        "paragraphs": 43,
+        "headings": 0,
+        "codeFences": 2,
+        "images": 2,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 452
+      },
+      "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 452,
+      "metrics": {
+        "chars": 8785,
+        "paragraphs": 43,
+        "headings": 0,
+        "codeFences": 2,
+        "images": 2,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 452
+      },
+      "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/?view=amp"
+    }
+  ]
+}

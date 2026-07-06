@@ -1,0 +1,146 @@
+{
+  "slug": "superpowers-6",
+  "title": "Superpowers 6",
+  "date": "2026-07-06T09:48:55.643Z",
+  "sourceUrl": "https://blog.fsck.com/2026/06/15/Superpowers-6/",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 452,
+      "metrics": {
+        "chars": 8785,
+        "paragraphs": 43,
+        "headings": 0,
+        "codeFences": 2,
+        "images": 2,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 452
+      },
+      "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 0
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 452,
+        "metrics": {
+          "chars": 8785,
+          "paragraphs": 43,
+          "headings": 0,
+          "codeFences": 2,
+          "images": 2,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 452
+        },
+        "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/"
+      },
+      {
+        "source": "variant-readability",
+        "score": 452,
+        "metrics": {
+          "chars": 8785,
+          "paragraphs": 43,
+          "headings": 0,
+          "codeFences": 2,
+          "images": 2,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 452
+        },
+        "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 452,
+        "metrics": {
+          "chars": 8785,
+          "paragraphs": 43,
+          "headings": 0,
+          "codeFences": 2,
+          "images": 2,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 452
+        },
+        "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 452,
+        "metrics": {
+          "chars": 8785,
+          "paragraphs": 43,
+          "headings": 0,
+          "codeFences": 2,
+          "images": 2,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 452
+        },
+        "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 452,
+        "metrics": {
+          "chars": 8785,
+          "paragraphs": 43,
+          "headings": 0,
+          "codeFences": 2,
+          "images": 2,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 452
+        },
+        "url": "https://blog.fsck.com/2026/06/15/Superpowers-6/?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.88,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 1336,
+        "codeBlocks": 2,
+        "tableRows": 0,
+        "headings": 0,
+        "links": 6,
+        "businessHits": 3,
+        "lifeHits": 1,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": true
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "检测到代码块或表格，判定为技术主题"
+      ]
+    }
+  }
+}
