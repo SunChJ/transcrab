@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 885,
+    "metrics": {
+      "chars": 41468,
+      "paragraphs": 60,
+      "headings": 13,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 11,
+      "inlineSvgs": 0,
+      "score": 885
+    },
+    "url": "https://www.anthropic.com/research/global-workspace"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 885,
+      "metrics": {
+        "chars": 41468,
+        "paragraphs": 60,
+        "headings": 13,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 11,
+        "inlineSvgs": 0,
+        "score": 885
+      },
+      "url": "https://www.anthropic.com/research/global-workspace"
+    },
+    {
+      "source": "variant-readability",
+      "score": 885,
+      "metrics": {
+        "chars": 41468,
+        "paragraphs": 60,
+        "headings": 13,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 11,
+        "inlineSvgs": 0,
+        "score": 885
+      },
+      "url": "https://www.anthropic.com/research/global-workspace?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 885,
+      "metrics": {
+        "chars": 41468,
+        "paragraphs": 60,
+        "headings": 13,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 11,
+        "inlineSvgs": 0,
+        "score": 885
+      },
+      "url": "https://www.anthropic.com/research/global-workspace?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 885,
+      "metrics": {
+        "chars": 41468,
+        "paragraphs": 60,
+        "headings": 13,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 11,
+        "inlineSvgs": 0,
+        "score": 885
+      },
+      "url": "https://www.anthropic.com/research/global-workspace?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 885,
+      "metrics": {
+        "chars": 41468,
+        "paragraphs": 60,
+        "headings": 13,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 11,
+        "inlineSvgs": 0,
+        "score": 885
+      },
+      "url": "https://www.anthropic.com/research/global-workspace?view=amp"
+    }
+  ]
+}

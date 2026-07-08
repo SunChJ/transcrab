@@ -1,0 +1,147 @@
+{
+  "slug": "a-global-workspace-in-language-models",
+  "title": "A global workspace in language models",
+  "date": "2026-07-08T10:02:52.721Z",
+  "sourceUrl": "https://www.anthropic.com/research/global-workspace",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 885,
+      "metrics": {
+        "chars": 41468,
+        "paragraphs": 60,
+        "headings": 13,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 11,
+        "inlineSvgs": 0,
+        "score": 885
+      },
+      "url": "https://www.anthropic.com/research/global-workspace"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 885,
+        "metrics": {
+          "chars": 41468,
+          "paragraphs": 60,
+          "headings": 13,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 11,
+          "inlineSvgs": 0,
+          "score": 885
+        },
+        "url": "https://www.anthropic.com/research/global-workspace"
+      },
+      {
+        "source": "variant-readability",
+        "score": 885,
+        "metrics": {
+          "chars": 41468,
+          "paragraphs": 60,
+          "headings": 13,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 11,
+          "inlineSvgs": 0,
+          "score": 885
+        },
+        "url": "https://www.anthropic.com/research/global-workspace?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 885,
+        "metrics": {
+          "chars": 41468,
+          "paragraphs": 60,
+          "headings": 13,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 11,
+          "inlineSvgs": 0,
+          "score": 885
+        },
+        "url": "https://www.anthropic.com/research/global-workspace?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 885,
+        "metrics": {
+          "chars": 41468,
+          "paragraphs": 60,
+          "headings": 13,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 11,
+          "inlineSvgs": 0,
+          "score": 885
+        },
+        "url": "https://www.anthropic.com/research/global-workspace?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 885,
+        "metrics": {
+          "chars": 41468,
+          "paragraphs": 60,
+          "headings": 13,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 11,
+          "inlineSvgs": 0,
+          "score": 885
+        },
+        "url": "https://www.anthropic.com/research/global-workspace?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "conversational",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "life",
+      "confidence": 0.76,
+      "resolved": {
+        "mode": "refined",
+        "style": "conversational",
+        "audience": "general",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 5362,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 13,
+        "links": 17,
+        "businessHits": 1,
+        "lifeHits": 2,
+        "isLong": true,
+        "isVeryLong": true,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "生活叙事关键词命中较高，判定为 life",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}
