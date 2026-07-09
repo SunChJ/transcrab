@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 4084,
+    "metrics": {
+      "chars": 187288,
+      "paragraphs": 337,
+      "headings": 38,
+      "codeFences": 13,
+      "images": 0,
+      "htmlFigures": 2,
+      "inlineSvgs": 8,
+      "score": 4084
+    },
+    "url": "https://bun.com/blog/bun-in-rust"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 4084,
+      "metrics": {
+        "chars": 187288,
+        "paragraphs": 337,
+        "headings": 38,
+        "codeFences": 13,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 8,
+        "score": 4084
+      },
+      "url": "https://bun.com/blog/bun-in-rust"
+    },
+    {
+      "source": "variant-readability",
+      "score": 4084,
+      "metrics": {
+        "chars": 187288,
+        "paragraphs": 337,
+        "headings": 38,
+        "codeFences": 13,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 8,
+        "score": 4084
+      },
+      "url": "https://bun.com/blog/bun-in-rust?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 4084,
+      "metrics": {
+        "chars": 187288,
+        "paragraphs": 337,
+        "headings": 38,
+        "codeFences": 13,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 8,
+        "score": 4084
+      },
+      "url": "https://bun.com/blog/bun-in-rust?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 4084,
+      "metrics": {
+        "chars": 187288,
+        "paragraphs": 337,
+        "headings": 38,
+        "codeFences": 13,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 8,
+        "score": 4084
+      },
+      "url": "https://bun.com/blog/bun-in-rust?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 4084,
+      "metrics": {
+        "chars": 187288,
+        "paragraphs": 337,
+        "headings": 38,
+        "codeFences": 13,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 8,
+        "score": 4084
+      },
+      "url": "https://bun.com/blog/bun-in-rust?view=amp"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "rewriting-bun-in-rust",
+  "title": "Rewriting Bun in Rust",
+  "date": "2026-07-09T08:18:46.066Z",
+  "sourceUrl": "https://bun.com/blog/bun-in-rust",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 4084,
+      "metrics": {
+        "chars": 187288,
+        "paragraphs": 337,
+        "headings": 38,
+        "codeFences": 13,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 8,
+        "score": 4084
+      },
+      "url": "https://bun.com/blog/bun-in-rust"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 4084,
+        "metrics": {
+          "chars": 187288,
+          "paragraphs": 337,
+          "headings": 38,
+          "codeFences": 13,
+          "images": 0,
+          "htmlFigures": 2,
+          "inlineSvgs": 8,
+          "score": 4084
+        },
+        "url": "https://bun.com/blog/bun-in-rust"
+      },
+      {
+        "source": "variant-readability",
+        "score": 4084,
+        "metrics": {
+          "chars": 187288,
+          "paragraphs": 337,
+          "headings": 38,
+          "codeFences": 13,
+          "images": 0,
+          "htmlFigures": 2,
+          "inlineSvgs": 8,
+          "score": 4084
+        },
+        "url": "https://bun.com/blog/bun-in-rust?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 4084,
+        "metrics": {
+          "chars": 187288,
+          "paragraphs": 337,
+          "headings": 38,
+          "codeFences": 13,
+          "images": 0,
+          "htmlFigures": 2,
+          "inlineSvgs": 8,
+          "score": 4084
+        },
+        "url": "https://bun.com/blog/bun-in-rust?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 4084,
+        "metrics": {
+          "chars": 187288,
+          "paragraphs": 337,
+          "headings": 38,
+          "codeFences": 13,
+          "images": 0,
+          "htmlFigures": 2,
+          "inlineSvgs": 8,
+          "score": 4084
+        },
+        "url": "https://bun.com/blog/bun-in-rust?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 4084,
+        "metrics": {
+          "chars": 187288,
+          "paragraphs": 337,
+          "headings": 38,
+          "codeFences": 13,
+          "images": 0,
+          "htmlFigures": 2,
+          "inlineSvgs": 8,
+          "score": 4084
+        },
+        "url": "https://bun.com/blog/bun-in-rust?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.88,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 17438,
+        "codeBlocks": 13,
+        "tableRows": 0,
+        "headings": 38,
+        "links": 55,
+        "businessHits": 1,
+        "lifeHits": 2,
+        "isLong": true,
+        "isVeryLong": true,
+        "isTechnical": true
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "检测到代码块或表格，判定为技术主题",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}
