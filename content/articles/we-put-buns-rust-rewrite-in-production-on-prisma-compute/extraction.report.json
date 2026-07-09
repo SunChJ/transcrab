@@ -1,0 +1,40 @@
+{
+  "selected": {
+    "source": "readability-manual-accepted",
+    "score": 457,
+    "metrics": {
+      "chars": 9650,
+      "paragraphs": 40,
+      "headings": 0,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 2,
+      "inlineSvgs": 0,
+      "score": 457
+    },
+    "url": "https://www.prisma.io/blog/bun-rust-rewrite-prisma-compute"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 0
+  },
+  "note": "Default extraction met length/paragraph thresholds but the source article body has no Markdown headings, so this manual generation accepted the readability candidate.",
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 457,
+      "metrics": {
+        "chars": 9650,
+        "paragraphs": 40,
+        "headings": 0,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 457
+      },
+      "url": "https://www.prisma.io/blog/bun-rust-rewrite-prisma-compute"
+    }
+  ]
+}
