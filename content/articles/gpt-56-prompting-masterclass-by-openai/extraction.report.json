@@ -1,0 +1,27 @@
+{
+  "selected": {
+    "source": "x-article",
+    "score": 999
+  },
+  "candidates": [
+    {
+      "source": "x-article",
+      "score": 999,
+      "metrics": {
+        "chars": 7819,
+        "paragraphs": 85,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 800
+      }
+    }
+  ],
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  }
+}
