@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 1037,
+    "metrics": {
+      "chars": 21404,
+      "paragraphs": 101,
+      "headings": 9,
+      "codeFences": 10,
+      "images": 1,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 1037
+    },
+    "url": "https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 1037,
+      "metrics": {
+        "chars": 21404,
+        "paragraphs": 101,
+        "headings": 9,
+        "codeFences": 10,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1037
+      },
+      "url": "https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1037,
+      "metrics": {
+        "chars": 21404,
+        "paragraphs": 101,
+        "headings": 9,
+        "codeFences": 10,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1037
+      },
+      "url": "https://developers.openai.com/api/docs/guides/reasoning?output=1#reasoning-mode"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1037,
+      "metrics": {
+        "chars": 21404,
+        "paragraphs": 101,
+        "headings": 9,
+        "codeFences": 10,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1037
+      },
+      "url": "https://developers.openai.com/api/docs/guides/reasoning?amp=1#reasoning-mode"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1037,
+      "metrics": {
+        "chars": 21404,
+        "paragraphs": 101,
+        "headings": 9,
+        "codeFences": 10,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1037
+      },
+      "url": "https://developers.openai.com/api/docs/guides/reasoning?print=1#reasoning-mode"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1037,
+      "metrics": {
+        "chars": 21404,
+        "paragraphs": 101,
+        "headings": 9,
+        "codeFences": 10,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1037
+      },
+      "url": "https://developers.openai.com/api/docs/guides/reasoning?view=amp#reasoning-mode"
+    }
+  ]
+}
