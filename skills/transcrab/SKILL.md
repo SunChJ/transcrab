@@ -1,85 +1,78 @@
 ---
 name: transcrab
-description: "Turn 'crab: <url>' into a translated article using the local transcrab-private repo scripts."
-metadata:
-  {
-    "openclaw": {
-      "emoji": "🦀",
-      "notes": [
-        "This is a starter skill template shipped with the TransCrab repo.",
-        "You MUST ask the user for consent before adopting/activating this behavior."
-      ]
-    }
-  }
+description: "Translate and publish an article through TransCrab only when the user explicitly sends `crab: URL`, `crab URL`, or invokes `$transcrab`. Fetch the article, produce a refined Chinese translation, complete the review artifacts, validate, commit only the article directory, push, and verify deployment. Do not use for a bare URL."
 ---
 
-# TransCrab Skill (Starter Template)
+# TransCrab
 
-This skill is meant for OpenClaw assistants to **reliably remember** how to run TransCrab.
+## Outcome and authority
 
-## Consent (required)
+Finish only when the translated article is committed, pushed, and reachable at its deployment URL with HTTP 200.
 
-Before you run anything on the user’s machine or persist new long-term behavior:
+Treat an explicit trigger as authorization to fetch the URL, write the generated article directory, run validation, commit that directory, push the current branch, and poll deployment. Do not request routine confirmation again.
 
-- Explain what will happen (network fetch + writing files + committing/pushing)
-- Ask the user to confirm the repo path and whether it’s okay
+## Preflight
 
-## Behavior contract
+1. Confirm `/Users/samsoncj/develop/transcrab`, `scripts/run-crab.sh`, and `scripts/apply-translation.mjs` exist.
+2. Run `git status --short`; preserve unrelated changes and inspect changed workflow scripts before relying on them.
+3. Stop and ask only when a required path or script is missing. Do not guess a replacement repository.
 
-Trigger rules:
+## Workflow
 
-- Do **not** run on URL alone.
-- Run only when the user sends `crab + URL`.
-- Preferred syntax: `crab: <url>`.
-
-Working directory (default):
-
-- `~/Projects/transcrab-private`
-
-Command:
+1. Fetch the article and capture the JSON result:
 
 ```bash
-cd ~/Projects/transcrab-private
-./scripts/run-crab.sh "<url>"
-```
-
-## Pre-flight checks (do these before running)
-
-1) Does the repo exist?
-2) Is `./scripts/run-crab.sh` present and executable?
-3) Is OpenClaw gateway running?
-
-If any check fails, ask the user what to do.
-
-## Pipeline (must complete end-to-end)
-
-`./scripts/run-crab.sh` only **fetches + writes source + writes a translation prompt**.
-You must finish the job: **translate → apply → commit/push → verify deploy**.
-
-1) Generate files + capture JSON output (need `slug` + `promptPath` + `translationProfile`):
-
-```bash
-cd ~/Projects/transcrab-private
+cd /Users/samsoncj/develop/transcrab
 ./scripts/run-crab.sh "<url>" --lang zh --mode auto
 ```
 
-2) Read `promptPath`, translate it **yourself** (do not ask the user), and save to a temp file.
-   - `promptPath` is canonical `translate.prompt.txt`.
-   - `translate.<lang>.prompt.txt` may exist as deprecated compatibility copy.
-   - Format: first line is `# <translated title>`, blank line, then body.
-   - Do **not** wrap in code fences.
+   Require `ok: true`, `slug`, `dir`, `promptPath`, and `articlePath`. Use these returned values instead of reconstructing paths. Read `promptPath`, `source.md`, and `01-analysis.md` before translating.
 
-3) Execute apply in two stages (refined publish flow):
+2. Write the Chinese draft yourself; never ask the user to supply it. Preserve Markdown structure, links, tables, images, code blocks, and canonical product/API names. Use this shape:
 
-```bash
-# draft stage: writes 03-draft.md (+ 04-critique.md)
-node scripts/apply-translation.mjs <slug> --lang zh --in /path/to/translated.zh.md --stage draft
+```text
+# <translated title>
 
-# final stage: writes zh.md (+ 05-revision.md)
-node scripts/apply-translation.mjs <slug> --lang zh --in /path/to/translated.zh.final.md --stage final
+<translated body>
 ```
 
-4) Commit + push to the private repo:
+Do not wrap the translation in a code fence.
+
+3. Save the draft to `/tmp/transcrab-<slug>-draft.md` and apply it:
+
+```bash
+node scripts/apply-translation.mjs <slug> --lang zh --in /tmp/transcrab-<slug>-draft.md --stage draft
+```
+
+   Require `ok: true`. Inspect `lint.report.json`; resolve material warnings rather than accepting auto-fixes blindly.
+
+4. Complete the refined review:
+
+   - Replace remaining `TODO` fields in `01-analysis.md` with actual terminology, audience, and tone decisions.
+   - Review `03-draft.md` against `source.md` for factual accuracy, terminology drift, Markdown integrity, readability, and style.
+   - Replace the placeholder checks in `04-critique.md` with specific findings.
+   - Apply the findings to `/tmp/transcrab-<slug>-final.md`.
+
+5. Apply the final translation:
+
+```bash
+node scripts/apply-translation.mjs <slug> --lang zh --in /tmp/transcrab-<slug>-final.md --stage final
+```
+
+   Require `ok: true`. Replace the generated `TODO` fields in `05-revision.md` with the actual changes and unresolved issues. Do not publish with unresolved material accuracy or structure problems.
+
+6. Validate the repository:
+
+```bash
+npm test
+npm run build
+```
+
+   If a failure is unrelated to the new article, name it and continue only after confirming the article is not implicated.
+
+7. Check the article scope with `git diff --check -- content/articles/<slug>/` and
+   `git diff --stat -- content/articles/<slug>/`. Inspect only unresolved or suspicious hunks that
+   were not already covered by the source/draft/final review, then commit and push only that directory:
 
 ```bash
 git add content/articles/<slug>/
@@ -87,34 +80,17 @@ git commit -m "Add article: <slug>"
 git push origin HEAD
 ```
 
-5) Verify deployment before replying:
+8. Build the deployment URL from the returned `articlePath`, then verify it:
 
 ```bash
-curl -I -L https://transcrab.samsoncj.link/a/<yyyy>/<mm>/<slug>/
+curl -I -L "https://transcrab.samsoncj.link<articlePath>"
 ```
 
-Only reply with the final page URL after it returns **200**.
+   Poll briefly for deployment. Reply with the final URL only after HTTP 200. If deployment remains pending, report the pushed commit, expected URL, and current status.
 
-## Auto profile behavior (current default)
+## Quality Rules
 
-When running with `--mode auto`:
-
-- Publish pipeline is fixed to `refined` (quality-first, no quick publish path)
-- Topic is auto-detected and style is selected accordingly:
-  - `technology` → `technical`
-  - `business` → `business`
-  - `life` → `conversational`
-
-## Output
-
-- Private repo has the new article **including `zh.md`** (and is pushed)
-- Refined artifacts are preserved (`01-analysis.md`, `03-draft.md`, `04-critique.md`, `05-revision.md`)
-- Deployed page URL is reachable (HTTP 200)
-- Reply with the deployed page URL
-  - Canonical path: `/a/<yyyy>/<mm>/<slug>/` (yyyy/mm derived from `date` in `zh.md`, UTC)
-
-## Customization points
-
-- Default target language
-- Slug rules
-- Whether to store raw source
+- Translate meaning, tone, and examples; do not invent claims.
+- Make technical Chinese natural without translating canonical product or API names.
+- Preserve links, images, tables, code blocks, inline SVG placeholders, and source structure.
+- Keep `01-analysis.md`, `03-draft.md`, `04-critique.md`, and `05-revision.md`; do not leave review `TODO` placeholders.
