@@ -15,7 +15,7 @@ function setupArticleFixture() {
   const dir = path.join(contentRoot, slug);
   fs.mkdirSync(dir, { recursive: true });
 
-  const sourceMd = `---\ntitle: Source Title\ndate: 2026-02-07T00:00:00.000Z\nsourceUrl: https://example.com\nlang: source\n---\n\nBody`;
+  const sourceMd = `---\ntitle: Source Title\ndate: 2026-02-07T00:00:00.000Z\nsourceUrl: https://example.com\nlang: source\nembedSource: true\n---\n\nBody`;
   writeFileSync(path.join(dir, 'source.md'), sourceMd, 'utf8');
 
   return { tmp, contentRoot, slug, dir };
@@ -44,6 +44,7 @@ test('apply-translation.mjs: extracts H1 title and writes frontmatter', () => {
   assert.equal(parsed.data.title, '译文标题');
   assert.equal(parsed.data.sourceUrl, 'https://example.com');
   assert.equal(parsed.data.lang, 'zh');
+  assert.equal(parsed.data.embedSource, true);
   assert.ok(!/^#\s+/m.test(parsed.content.trim()));
   assert.match(parsed.content, /这是正文第一段/);
 });
