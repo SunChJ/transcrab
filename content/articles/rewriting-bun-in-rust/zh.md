@@ -3,6 +3,7 @@ title: 用 Rust 重写 Bun
 date: '2026-07-09T08:18:46.066Z'
 sourceUrl: 'https://bun.com/blog/bun-in-rust'
 lang: zh
+embedSource: true
 ---
 披露：Bun 于 2025 年 12 月被 Anthropic 收购。我和 Bun 团队的其他成员现在都在 Anthropic 工作。在这次 Rust 重写的大部分过程中，我使用了 Claude Fable 5 的预发布版本。
 
