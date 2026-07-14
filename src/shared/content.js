@@ -93,7 +93,6 @@ export async function getArticle(slug) {
       date,
       dateDisplay: dateDisplay(date),
       sourceUrl: fm.data.sourceUrl ?? null,
-      embedSource: fm.data.embedSource === true,
       html,
     };
   } catch {

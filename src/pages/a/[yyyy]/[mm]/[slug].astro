@@ -14,7 +14,7 @@ const article = await getArticle(slug);
 if (!article) {
   return new Response('Not found', { status: 404 });
 }
-const { html, title, sourceUrl, dateDisplay, embedSource } = article;
+const { html, title, sourceUrl, dateDisplay } = article;
 ---
 
 <Base title={title}>
@@ -27,77 +27,6 @@ const { html, title, sourceUrl, dateDisplay, embedSource } = article;
     {dateDisplay ? <span>{dateDisplay}</span> : null}
     {sourceUrl ? <span> · <a href={sourceUrl} target="_blank" rel="noreferrer">原文链接</a></span> : null}
   </div>
-
-  {embedSource && sourceUrl ? (
-    <>
-      <style is:inline>
-        {`
-          .source-embed {
-            margin: 1.25rem 0 2rem;
-            overflow: hidden;
-            border: 1px solid rgba(127, 127, 127, 0.28);
-            border-radius: 0.75rem;
-            background: rgba(127, 127, 127, 0.05);
-          }
-          .source-embed summary {
-            cursor: pointer;
-            padding: 0.8rem 1rem;
-            font-weight: 600;
-          }
-          .source-embed-toolbar {
-            display: flex;
-            justify-content: space-between;
-            gap: 1rem;
-            padding: 0.7rem 1rem;
-            border-top: 1px solid rgba(127, 127, 127, 0.2);
-            font-size: 0.9rem;
-          }
-          .source-embed-frame {
-            display: block;
-            width: 100%;
-            height: min(78vh, 860px);
-            min-height: 560px;
-            border: 0;
-            border-top: 1px solid rgba(127, 127, 127, 0.2);
-            background: white;
-          }
-          @media (max-width: 640px) {
-            .source-embed-toolbar { display: block; }
-            .source-embed-toolbar a { display: block; margin-top: 0.35rem; }
-            .source-embed-frame { height: 70vh; min-height: 480px; }
-          }
-        `}
-      </style>
-      <details class="source-embed" data-source-embed>
-        <summary>查看原文交互版</summary>
-        <div class="source-embed-toolbar">
-          动态内容由原网站提供。
-          <a href={sourceUrl} target="_blank" rel="noreferrer">在新窗口打开</a>
-        </div>
-        <iframe
-          class="source-embed-frame"
-          data-src={sourceUrl}
-          title={`${title} 原文交互版`}
-          loading="lazy"
-          sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
-          referrerpolicy="no-referrer"
-        />
-        <noscript><a href={sourceUrl} target="_blank" rel="noreferrer">打开原文交互版</a></noscript>
-      </details>
-      <script is:inline>
-        for (const details of document.querySelectorAll('details[data-source-embed]')) {
-          if (!(details instanceof HTMLDetailsElement)) continue;
-          details.addEventListener('toggle', () => {
-            if (!details.open) return;
-            const frame = details.querySelector('iframe[data-src]');
-            if (!(frame instanceof HTMLIFrameElement)) return;
-            frame.src = frame.dataset.src || '';
-            frame.removeAttribute('data-src');
-          }, { once: true });
-        }
-      </script>
-    </>
-  ) : null}
 
   <article set:html={html} />
 </Base>
@@ -124,5 +53,4 @@ const { html, title, sourceUrl, dateDisplay, embedSource } = article;
     background: rgba(127, 127, 127, 0.14);
     text-decoration: none;
   }
-
 </style>
