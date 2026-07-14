@@ -3,7 +3,6 @@ title: Rewriting Bun in Rust
 date: '2026-07-09T08:18:46.066Z'
 sourceUrl: 'https://bun.com/blog/bun-in-rust'
 lang: source
-embedSource: true
 ---
 Disclosure: Bun was acquired by Anthropic in December 2025. I and others on the Bun team work at Anthropic. I used a pre-release version of Claude Fable 5 for much of the Rust rewrite.
 

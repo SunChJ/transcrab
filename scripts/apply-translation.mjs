@@ -260,7 +260,6 @@ const outFrontmatter = {
   date: fm.date,
   sourceUrl: fm.sourceUrl,
   lang,
-  ...(fm.embedSource === true ? { embedSource: true } : {}),
 };
 
 const outMd = matter.stringify(translated, outFrontmatter);
