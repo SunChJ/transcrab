@@ -1,0 +1,147 @@
+{
+  "slug": "the-swiftui-performance-skill-livsy-code",
+  "title": "The SwiftUI Performance Skill → Livsy Code",
+  "date": "2026-07-24T09:48:01.214Z",
+  "sourceUrl": "https://livsycode.com/swiftui/the-swiftui-performance-skill/",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 1010,
+      "metrics": {
+        "chars": 34230,
+        "paragraphs": 105,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1010
+      },
+      "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 1010,
+        "metrics": {
+          "chars": 34230,
+          "paragraphs": 105,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1010
+        },
+        "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1010,
+        "metrics": {
+          "chars": 34230,
+          "paragraphs": 105,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1010
+        },
+        "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1010,
+        "metrics": {
+          "chars": 34230,
+          "paragraphs": 105,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1010
+        },
+        "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1010,
+        "metrics": {
+          "chars": 34230,
+          "paragraphs": 105,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1010
+        },
+        "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1010,
+        "metrics": {
+          "chars": 34230,
+          "paragraphs": 105,
+          "headings": 10,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 1010
+        },
+        "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "conversational",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "life",
+      "confidence": 0.76,
+      "resolved": {
+        "mode": "refined",
+        "style": "conversational",
+        "audience": "general",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 5297,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 10,
+        "links": 2,
+        "businessHits": 3,
+        "lifeHits": 6,
+        "isLong": true,
+        "isVeryLong": true,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "生活叙事关键词命中较高，判定为 life",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}

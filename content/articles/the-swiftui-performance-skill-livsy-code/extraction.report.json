@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 1010,
+    "metrics": {
+      "chars": 34230,
+      "paragraphs": 105,
+      "headings": 10,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 1010
+    },
+    "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 1010,
+      "metrics": {
+        "chars": 34230,
+        "paragraphs": 105,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1010
+      },
+      "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1010,
+      "metrics": {
+        "chars": 34230,
+        "paragraphs": 105,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1010
+      },
+      "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1010,
+      "metrics": {
+        "chars": 34230,
+        "paragraphs": 105,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1010
+      },
+      "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1010,
+      "metrics": {
+        "chars": 34230,
+        "paragraphs": 105,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1010
+      },
+      "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 1010,
+      "metrics": {
+        "chars": 34230,
+        "paragraphs": 105,
+        "headings": 10,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 1010
+      },
+      "url": "https://livsycode.com/swiftui/the-swiftui-performance-skill/?view=amp"
+    }
+  ]
+}
