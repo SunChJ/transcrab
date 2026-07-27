@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 466,
+    "metrics": {
+      "chars": 13571,
+      "paragraphs": 38,
+      "headings": 6,
+      "codeFences": 0,
+      "images": 3,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 466
+    },
+    "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 466,
+      "metrics": {
+        "chars": 13571,
+        "paragraphs": 38,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 466
+      },
+      "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired"
+    },
+    {
+      "source": "variant-readability",
+      "score": 466,
+      "metrics": {
+        "chars": 13571,
+        "paragraphs": 38,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 466
+      },
+      "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 466,
+      "metrics": {
+        "chars": 13571,
+        "paragraphs": 38,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 466
+      },
+      "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 466,
+      "metrics": {
+        "chars": 13571,
+        "paragraphs": 38,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 466
+      },
+      "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 466,
+      "metrics": {
+        "chars": 13571,
+        "paragraphs": 38,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 466
+      },
+      "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired?view=amp"
+    }
+  ]
+}

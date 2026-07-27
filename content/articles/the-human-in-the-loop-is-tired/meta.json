@@ -1,0 +1,146 @@
+{
+  "slug": "the-human-in-the-loop-is-tired",
+  "title": "The Human-in-the-Loop is Tired",
+  "date": "2026-07-27T08:40:21.629Z",
+  "sourceUrl": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 466,
+      "metrics": {
+        "chars": 13571,
+        "paragraphs": 38,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 466
+      },
+      "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 466,
+        "metrics": {
+          "chars": 13571,
+          "paragraphs": 38,
+          "headings": 6,
+          "codeFences": 0,
+          "images": 3,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 466
+        },
+        "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired"
+      },
+      {
+        "source": "variant-readability",
+        "score": 466,
+        "metrics": {
+          "chars": 13571,
+          "paragraphs": 38,
+          "headings": 6,
+          "codeFences": 0,
+          "images": 3,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 466
+        },
+        "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 466,
+        "metrics": {
+          "chars": 13571,
+          "paragraphs": 38,
+          "headings": 6,
+          "codeFences": 0,
+          "images": 3,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 466
+        },
+        "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 466,
+        "metrics": {
+          "chars": 13571,
+          "paragraphs": 38,
+          "headings": 6,
+          "codeFences": 0,
+          "images": 3,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 466
+        },
+        "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 466,
+        "metrics": {
+          "chars": 13571,
+          "paragraphs": 38,
+          "headings": 6,
+          "codeFences": 0,
+          "images": 3,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 466
+        },
+        "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "conversational",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "life",
+      "confidence": 0.76,
+      "resolved": {
+        "mode": "refined",
+        "style": "conversational",
+        "audience": "general",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 2057,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 6,
+        "links": 18,
+        "businessHits": 0,
+        "lifeHits": 2,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "生活叙事关键词命中较高，判定为 life"
+      ]
+    }
+  }
+}
