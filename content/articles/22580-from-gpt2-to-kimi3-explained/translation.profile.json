@@ -1,0 +1,78 @@
+{
+  "profile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "chunkThreshold": 4000,
+    "chunkMaxWords": 5000,
+    "glossary": []
+  },
+  "configuredProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "storytelling",
+    "chunkThreshold": 4000,
+    "chunkMaxWords": 5000,
+    "glossary": []
+  },
+  "autoProfile": {
+    "requestedMode": "auto",
+    "topic": "technology",
+    "confidence": 0.52,
+    "resolved": {
+      "mode": "refined",
+      "style": "technical",
+      "audience": "technical",
+      "chunkThreshold": 4000,
+      "chunkMaxWords": 5000,
+      "glossary": []
+    },
+    "metrics": {
+      "words": 2866,
+      "codeBlocks": 0,
+      "tableRows": 0,
+      "headings": 0,
+      "links": 0,
+      "businessHits": 1,
+      "lifeHits": 1,
+      "isLong": true,
+      "isVeryLong": false,
+      "isTechnical": false
+    },
+    "reasons": [
+      "公开发布默认使用 refined 流程，优先质量与稳定性",
+      "主题信号不明显，回退到 technology",
+      "篇幅较长，refined 可降低术语漂移与结构风险"
+    ]
+  },
+  "steps": [
+    "auto-analyze",
+    "translate"
+  ],
+  "executionMode": "refined",
+  "executionSteps": [
+    "analyze",
+    "translate",
+    "review",
+    "revise"
+  ],
+  "artifacts": {
+    "analysis": "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/01-analysis.md",
+    "assembledPrompt": "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/02-prompt.md",
+    "draft": "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/03-draft.md",
+    "critique": "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/04-critique.md",
+    "revision": "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/05-revision.md",
+    "final": "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/translation.md"
+  },
+  "promptPath": "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/translate.prompt.txt",
+  "promptCompatPath": "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/translate.zh.prompt.txt",
+  "createdFiles": [
+    "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/02-prompt.md",
+    "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/01-analysis.md",
+    "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/03-draft.md",
+    "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/04-critique.md",
+    "/Users/samsoncj/develop/transcrab/content/articles/22580-from-gpt2-to-kimi3-explained/05-revision.md"
+  ],
+  "configPath": "/Users/samsoncj/develop/transcrab/transcrab.translate.config.json",
+  "loadedFromFile": true
+}
