@@ -1,0 +1,39 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 335,
+    "metrics": {
+      "chars": 8122,
+      "paragraphs": 23,
+      "headings": 6,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 2,
+      "inlineSvgs": 0,
+      "score": 335
+    },
+    "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 335,
+      "metrics": {
+        "chars": 8122,
+        "paragraphs": 23,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 335
+      },
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/"
+    }
+  ]
+}
