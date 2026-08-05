@@ -1,0 +1,74 @@
+{
+  "slug": "we-rewrote-our-agent-to-run-entirely-in-a-durable-object-with-pi-agents-sdk-and-code-mode",
+  "title": "We rewrote our agent to run entirely in a Durable Object with Pi, Agents SDK and Code Mode",
+  "date": "2026-08-05T02:02:58.973Z",
+  "sourceUrl": "https://x.com/Vercantez/status/2082138839888589200?s=12&t=oDjsBy-f-VCdrYC6Q655dA",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "x-article",
+      "score": 999
+    },
+    "candidates": [
+      {
+        "source": "x-article",
+        "score": 999,
+        "metrics": {
+          "chars": 9891,
+          "paragraphs": 21,
+          "headings": 6,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 297
+        }
+      }
+    ],
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    }
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.52,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 1556,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 6,
+        "links": 15,
+        "businessHits": 0,
+        "lifeHits": 1,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "主题信号不明显，回退到 technology"
+      ]
+    }
+  }
+}
