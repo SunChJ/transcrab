@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 687,
+    "metrics": {
+      "chars": 25584,
+      "paragraphs": 49,
+      "headings": 5,
+      "codeFences": 5,
+      "images": 0,
+      "htmlFigures": 6,
+      "inlineSvgs": 0,
+      "score": 687
+    },
+    "url": "https://blog.cloudflare.com/cloudflare-computer/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 687,
+      "metrics": {
+        "chars": 25584,
+        "paragraphs": 49,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 687
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-computer/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 687,
+      "metrics": {
+        "chars": 25584,
+        "paragraphs": 49,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 687
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-computer/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 687,
+      "metrics": {
+        "chars": 25584,
+        "paragraphs": 49,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 687
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-computer/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 687,
+      "metrics": {
+        "chars": 25584,
+        "paragraphs": 49,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 687
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-computer/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 687,
+      "metrics": {
+        "chars": 25584,
+        "paragraphs": 49,
+        "headings": 5,
+        "codeFences": 5,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 687
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-computer/?view=amp"
+    }
+  ]
+}
