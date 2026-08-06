@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 334,
+    "metrics": {
+      "chars": 7986,
+      "paragraphs": 23,
+      "headings": 6,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 2,
+      "inlineSvgs": 0,
+      "score": 334
+    },
+    "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 334,
+      "metrics": {
+        "chars": 7986,
+        "paragraphs": 23,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 334
+      },
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 334,
+      "metrics": {
+        "chars": 7986,
+        "paragraphs": 23,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 334
+      },
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 334,
+      "metrics": {
+        "chars": 7986,
+        "paragraphs": 23,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 334
+      },
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 334,
+      "metrics": {
+        "chars": 7986,
+        "paragraphs": 23,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 334
+      },
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 334,
+      "metrics": {
+        "chars": 7986,
+        "paragraphs": 23,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 2,
+        "inlineSvgs": 0,
+        "score": 334
+      },
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/?view=amp"
+    }
+  ]
+}
