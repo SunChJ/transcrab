@@ -119,7 +119,7 @@ Every next page or out-of-process iframe ([OOPIF](https://www.chromium.org/devel
 
 The DOM object is then populated with the results of parsing the HTML document and running all the JavaScript scripts. For parsing the HTML and the CSS we use parts of [Blitz](https://github.com/DioxusLabs/blitz), a modular rendering engine, and [Stylo](https://github.com/servo/stylo), Firefox’s high-performance CSS parser, both written in Rust. 
 
-For each found <script> tag or .wasm file we run the JavaScript and WebAssembly code inside the same isolate.
+For each found &lt;script&gt; tag or .wasm file we run the JavaScript and WebAssembly code inside the same isolate.
 
 **Yes, but evals**
 

@@ -129,3 +129,25 @@ test('transcrab-core: buildTranslatePrompt contract asks to keep media embeds', 
   const prompt = buildTranslatePrompt('# T\n\nBody', 'zh');
   assert.match(prompt, /<iframe>\/<video>\/<audio> 等媒体嵌入 HTML，必须原样保留/);
 });
+
+test('transcrab-core: escapes bare raw-text tags so they do not swallow rendered page', async () => {
+  const html = `<!doctype html>
+  <html><head><meta charset="utf-8" /><title>Raw Text Tags</title></head>
+  <body>
+    <article>
+      <p>Before.</p>
+      <p>For each found &lt;script&gt; tag or .wasm file we run the code.</p>
+      <p>Also &lt;/script&gt; and a <code>&lt;style&gt;</code> mention.</p>
+      <pre><code>&lt;script&gt;inside code block stays raw&lt;/script&gt;</code></pre>
+      <p>After.</p>
+    </article>
+  </body></html>`;
+
+  const { markdown } = await htmlToMarkdown(html, 'https://example.com/rawtext');
+  // literal mentions are escaped in prose
+  assert.match(markdown, /For each found &lt;script&gt; tag/);
+  assert.match(markdown, /Also &lt;\/script&gt; and a `&lt;style&gt;` mention\./);
+  // fenced code block keeps the raw tag
+  assert.match(markdown, /```[^\n]*\n<script>inside code block stays raw<\/script>/);
+  assert.doesNotMatch(markdown, /found <script> tag/);
+});

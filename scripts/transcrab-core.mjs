@@ -133,8 +133,29 @@ export async function htmlToMarkdown(html, baseUrl) {
   const defaultFenceLang = pickDefaultFenceLang(fenceLangCounts);
   if (defaultFenceLang) md = applyDefaultLangToFences(md, defaultFenceLang);
   md = normalizeLinkedImageBlocks(md);
+  md = escapeBareRawTextTags(md);
 
   return { title: title.trim(), markdown: md.trim() + '\n' };
+}
+
+// Raw-text HTML tags (script/style/textarea/title/…) would swallow the rest of the
+// rendered page when a browser parses them, so escape bare occurrences that appear
+// as literal text in the extracted markdown. Fenced code blocks are left alone, and
+// intentionally kept HTML blocks (figures/embeds) never contain these tags.
+const RAW_TEXT_TAG_RE = /<\/?(?:script|style|textarea|title|xmp|plaintext|noscript|template)\b[^>]*>/gi;
+
+function escapeBareRawTextTags(md) {
+  const lines = String(md || '').split(/\r?\n/);
+  let inFence = false;
+  const out = lines.map((line) => {
+    if (/^(```+|~~~+)/.test(line.trim())) {
+      inFence = !inFence;
+      return line;
+    }
+    if (inFence) return line;
+    return line.replace(RAW_TEXT_TAG_RE, (m) => m.replace(/</g, '&lt;').replace(/>/g, '&gt;'));
+  });
+  return out.join('\n');
 }
 
 // 1x1 transparent GIF used as a placeholder so Readability keeps the position of

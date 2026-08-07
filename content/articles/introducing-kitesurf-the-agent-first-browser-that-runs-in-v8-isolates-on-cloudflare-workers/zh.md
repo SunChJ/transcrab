@@ -117,7 +117,7 @@ PageScript 很好地展示了我们新 Workers 特性的威力：这里用的是
 
 随后，DOM 对象会被填入解析 HTML 文档和运行全部 JavaScript 脚本的结果。解析 HTML 和 CSS 时，我们使用 [Blitz](https://github.com/DioxusLabs/blitz)（一个模块化渲染引擎）和 [Stylo](https://github.com/servo/stylo)（Firefox 的高性能 CSS 解析器）的部分代码，两者都用 Rust 编写。
 
-对于找到的每个 <script> 标签或 .wasm 文件，我们在同一个 isolate 内运行对应的 JavaScript 和 WebAssembly 代码。
+对于找到的每个 &lt;script&gt; 标签或 .wasm 文件，我们在同一个 isolate 内运行对应的 JavaScript 和 WebAssembly 代码。
 
 **是的，但 eval 怎么办？**
 
