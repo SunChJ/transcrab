@@ -100,6 +100,26 @@ const { title = 'TransCrab', description } = Astro.props;
         cursor: zoom-in;
       }
 
+      /* Embedded video (extractor emits .video-wrap with inline sizing; keep a
+         CSS fallback so absolute-positioned iframes always have a positioned
+         container regardless of inline styles). */
+      article .video-wrap {
+        position: relative;
+        width: 100%;
+        margin: 1.2rem 0;
+        border-radius: 10px;
+        overflow: hidden;
+        background: #000;
+      }
+      article .video-wrap iframe {
+        border: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+
       /* Blockquotes */
       blockquote {
         margin: 1.2rem 0;

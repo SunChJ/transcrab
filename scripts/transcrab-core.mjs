@@ -35,7 +35,7 @@ export async function htmlToMarkdown(html, baseUrl) {
     '';
 
   const contentDom = new JSDOM(contentHtml, { url: baseUrl });
-  restoreEmbeddedIframes(contentDom.window.document);
+  await restoreEmbeddedIframes(contentDom.window.document);
   applyCodeLangHints(contentDom.window.document, langHints);
   absolutizeAssetUrls(contentDom.window.document, baseUrl);
   const patchedHtml = contentDom.window.document.body?.innerHTML || contentHtml;
@@ -202,22 +202,120 @@ function findEmbedContainer(iframeEl) {
 
 function restoreEmbeddedIframes(doc) {
   const placeholders = doc.querySelectorAll('img[data-embed-html]');
-  for (const ph of placeholders) {
-    const raw = ph.getAttribute('data-embed-html') || '';
-    if (!raw) continue;
-    const html = Buffer.from(raw, 'base64').toString('utf8');
-    try {
-      // Parse the embed HTML with the placeholder's own document so we do not
-      // depend on a module-level JSDOM instance.
-      const wrapper = doc.createElement('div');
-      wrapper.innerHTML = html;
-      const frag = doc.createDocumentFragment();
-      while (wrapper.firstChild) frag.appendChild(wrapper.firstChild);
-      ph.parentNode?.replaceChild(frag, ph);
-    } catch {
-      // Leave the placeholder in place if restoration fails.
+  return Promise.all(
+    [...placeholders].map(async (ph) => {
+      const raw = ph.getAttribute('data-embed-html') || '';
+      if (!raw) return;
+      const html = Buffer.from(raw, 'base64').toString('utf8');
+      try {
+        // Parse the embed HTML with the placeholder's own document so we do not
+        // depend on a module-level JSDOM instance.
+        const wrapper = doc.createElement('div');
+        wrapper.innerHTML = html;
+        const iframe = wrapper.querySelector('iframe');
+        if (!iframe) {
+          // Not an iframe embed; restore whatever was saved as-is.
+          const frag = doc.createDocumentFragment();
+          while (wrapper.firstChild) frag.appendChild(wrapper.firstChild);
+          ph.parentNode?.replaceChild(frag, ph);
+          return;
+        }
+        const probedRatio = await probeVideoAspectRatio(iframe);
+        const paddingTop = computeEmbedPaddingTop(html, probedRatio);
+        const container = doc.createElement('div');
+        container.className = 'video-wrap';
+        container.setAttribute(
+          'style',
+          `position:relative;width:100%;padding-top:${paddingTop}%;margin:1.2rem 0;border-radius:10px;overflow:hidden;background:#000`
+        );
+        iframe.setAttribute(
+          'style',
+          'border:none;position:absolute;top:0;left:0;height:100%;width:100%'
+        );
+        container.appendChild(iframe);
+        ph.parentNode?.replaceChild(container, ph);
+      } catch {
+        // Leave the placeholder in place if restoration fails.
+      }
+    })
+  );
+}
+
+// Probe the real aspect ratio of a video embed from its poster frame, so the
+// container can be sized to the video instead of a hard-coded 16:9 box.
+async function probeVideoAspectRatio(iframeEl) {
+  try {
+    let poster = iframeEl.getAttribute('poster') || '';
+    const src = iframeEl.getAttribute('src') || '';
+    if (!poster && src) {
+      const m = src.match(/[?&]poster=([^&]+)/);
+      if (m) poster = decodeURIComponent(m[1]);
     }
+    if (!poster) return null;
+    const res = await fetch(poster, {
+      redirect: 'follow',
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!res.ok) return null;
+    const buf = new Uint8Array(await res.arrayBuffer());
+    return parseImageAspectRatio(buf);
+  } catch {
+    return null;
   }
+}
+
+// Best-effort width/height extraction for JPEG and PNG headers.
+export function parseImageAspectRatio(buf) {
+  if (!buf || buf.length < 16) return null;
+  // JPEG: walk segments until a SOF marker.
+  if (buf[0] === 0xff && buf[1] === 0xd8) {
+    let i = 2;
+    while (i + 9 < buf.length) {
+      if (buf[i] !== 0xff) {
+        i++;
+        continue;
+      }
+      const marker = buf[i + 1];
+      if (marker === 0xd8 || (marker >= 0xd0 && marker <= 0xd7) || marker === 0x01) {
+        i += 2;
+        continue;
+      }
+      if (marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc) {
+        const h = (buf[i + 5] << 8) | buf[i + 6];
+        const w = (buf[i + 7] << 8) | buf[i + 8];
+        if (w > 0 && h > 0) return w / h;
+      }
+      const len = (buf[i + 2] << 8) | buf[i + 3];
+      if (len < 2) return null;
+      i += 2 + len;
+    }
+    return null;
+  }
+  // PNG: IHDR at fixed offset.
+  if (buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4e && buf[3] === 0x47) {
+    const w = ((buf[16] << 24) | (buf[17] << 16) | (buf[18] << 8) | buf[19]) >>> 0;
+    const h = ((buf[20] << 24) | (buf[21] << 16) | (buf[22] << 8) | buf[23]) >>> 0;
+    if (w > 0 && h > 0) return w / h;
+  }
+  return null;
+}
+
+// Decide the responsive padding-top (%) for a video embed.
+// Priority: probed real ratio > ratio implied by the original container > 16:9.
+export function computeEmbedPaddingTop(embedHtml, probedRatio) {
+  if (probedRatio && probedRatio > 0) {
+    const p = Math.round((100 / probedRatio) * 100) / 100;
+    if (p >= 20 && p <= 150) return p;
+  }
+  // Original layout usually is <div style="padding-top:P%"><iframe style="width:W%">.
+  // Normalize to 100% width: paddingTop = P / W.
+  const pm = String(embedHtml || '').match(/padding-top:([\d.]+)%/);
+  const wm = String(embedHtml || '').match(/width:([\d.]+)%/);
+  if (pm && wm) {
+    const p = (parseFloat(pm[1]) / parseFloat(wm[1])) * 100;
+    if (p >= 20 && p <= 150) return Math.round(p * 100) / 100;
+  }
+  return 56.25;
 }
 
 function pickDirectContentHtml(doc) {
