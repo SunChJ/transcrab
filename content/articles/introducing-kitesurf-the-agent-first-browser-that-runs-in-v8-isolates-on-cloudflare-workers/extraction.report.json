@@ -1,16 +1,16 @@
 {
   "selected": {
     "source": "readability",
-    "score": 1322,
+    "score": 1338,
     "metrics": {
-      "chars": 45824,
-      "paragraphs": 115,
+      "chars": 46906,
+      "paragraphs": 117,
       "headings": 14,
       "codeFences": 2,
       "images": 0,
       "htmlFigures": 10,
       "inlineSvgs": 0,
-      "score": 1322
+      "score": 1338
     },
     "url": "https://blog.cloudflare.com/kitesurf/"
   },
@@ -22,76 +22,76 @@
   "candidates": [
     {
       "source": "readability",
-      "score": 1322,
+      "score": 1338,
       "metrics": {
-        "chars": 45824,
-        "paragraphs": 115,
+        "chars": 46906,
+        "paragraphs": 117,
         "headings": 14,
         "codeFences": 2,
         "images": 0,
         "htmlFigures": 10,
         "inlineSvgs": 0,
-        "score": 1322
+        "score": 1338
       },
       "url": "https://blog.cloudflare.com/kitesurf/"
     },
     {
       "source": "variant-readability",
-      "score": 1322,
+      "score": 1338,
       "metrics": {
-        "chars": 45824,
-        "paragraphs": 115,
+        "chars": 46906,
+        "paragraphs": 117,
         "headings": 14,
         "codeFences": 2,
         "images": 0,
         "htmlFigures": 10,
         "inlineSvgs": 0,
-        "score": 1322
+        "score": 1338
       },
       "url": "https://blog.cloudflare.com/kitesurf/?output=1"
     },
     {
       "source": "variant-readability",
-      "score": 1322,
+      "score": 1338,
       "metrics": {
-        "chars": 45824,
-        "paragraphs": 115,
+        "chars": 46906,
+        "paragraphs": 117,
         "headings": 14,
         "codeFences": 2,
         "images": 0,
         "htmlFigures": 10,
         "inlineSvgs": 0,
-        "score": 1322
+        "score": 1338
       },
       "url": "https://blog.cloudflare.com/kitesurf/?amp=1"
     },
     {
       "source": "variant-readability",
-      "score": 1322,
+      "score": 1338,
       "metrics": {
-        "chars": 45824,
-        "paragraphs": 115,
+        "chars": 46906,
+        "paragraphs": 117,
         "headings": 14,
         "codeFences": 2,
         "images": 0,
         "htmlFigures": 10,
         "inlineSvgs": 0,
-        "score": 1322
+        "score": 1338
       },
       "url": "https://blog.cloudflare.com/kitesurf/?print=1"
     },
     {
       "source": "variant-readability",
-      "score": 1322,
+      "score": 1338,
       "metrics": {
-        "chars": 45824,
-        "paragraphs": 115,
+        "chars": 46906,
+        "paragraphs": 117,
         "headings": 14,
         "codeFences": 2,
         "images": 0,
         "htmlFigures": 10,
         "inlineSvgs": 0,
-        "score": 1322
+        "score": 1338
       },
       "url": "https://blog.cloudflare.com/kitesurf/?view=amp"
     }

@@ -2,7 +2,7 @@
 title: >-
   Introducing Kitesurf: The agent-first browser that runs in V8 isolates on
   Cloudflare Workers
-date: '2026-08-07T02:49:04.583Z'
+date: '2026-08-07T06:15:51.162Z'
 sourceUrl: 'https://blog.cloudflare.com/kitesurf/'
 lang: source
 ---
@@ -219,7 +219,7 @@ But Kitesurf wins on memory and CPU, the things that actually drive your bill, b
 
 We highlighted the importance of testing in our design decisions, but we all know that no matter how many tests you have, a project isn't truly complete until Doom runs on it. Here’s Kitesurf running [https://silentspacemarine.com/](https://silentspacemarine.com/) from our little Doom [experiment](https://blog.cloudflare.com/doom-multiplayer-workers/) a few years ago.
 
-<iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/d0e3d78d3f2135f2a0f42cb6a882d110/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2Fd0e3d78d3f2135f2a0f42cb6a882d110%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:84%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe>
+<div style="padding-top:53.46457990115321%"><iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/d0e3d78d3f2135f2a0f42cb6a882d110/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2Fd0e3d78d3f2135f2a0f42cb6a882d110%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:84%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe></div>
 
 ### Try it today in Browser Run
 
@@ -273,7 +273,7 @@ Check our [Developer Documentation](https://developers.cloudflare.com/browser-ru
 
 As of today, Kitesurf correctly renders pages like [TodoMVC](https://todomvc.com/) (vanilla, React, Vue, Angular, Preact), Wikipedia, Hacker News, the Cloudflare Blog, and much of the Cloudflare dashboard. We will keep improving Kitesurf and increasing the percentage of WPT tests that pass, to improve compatibility for more complex web pages.
 
-<iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/87f957139f360dbd005c4538510eb152/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2F87f957139f360dbd005c4538510eb152%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:84%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe>
+<div style="padding-top:53.46457990115321%"><iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/87f957139f360dbd005c4538510eb152/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2F87f957139f360dbd005c4538510eb152%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:84%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe></div>
 
 Kitesurf is great for AI agents that need to render pages but can accept the trade-offs of not using a full-featured, pixel-perfect Chromium browser. It is also excellent for automations and applications that rely on one-shot [Quick Actions](https://developers.cloudflare.com/browser-run/quick-actions/), such as extracting content from a page or generating PDFs or screenshots, for compatible sites.
 

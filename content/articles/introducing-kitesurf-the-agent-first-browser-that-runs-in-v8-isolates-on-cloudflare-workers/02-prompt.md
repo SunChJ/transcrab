@@ -15,6 +15,7 @@
 - 保留 Markdown 结构（标题/列表/引用/表格/链接）。
 - 代码块、命令、URL、文件路径保持原样，不要翻译。
 - 若正文中出现形如 @@FIGURE_SVG_001@@ 的占位符，必须原样保留（不要改写、不要删除、不要移动）。
+- 若正文中出现 <iframe>/<video>/<audio> 等媒体嵌入 HTML，必须原样保留（不要改写、不要删除、不要移动）。
 - **必须同时翻译标题**：请先输出一行 Markdown 一级标题（以 "# " 开头），作为译文标题。
 - 然后空一行，再输出译文正文（不要再重复标题）。
 - 只输出翻译结果本身，不要附加解释、不要加前后缀。
@@ -232,6 +233,8 @@ But Kitesurf wins on memory and CPU, the things that actually drive your bill, b
 
 We highlighted the importance of testing in our design decisions, but we all know that no matter how many tests you have, a project isn't truly complete until Doom runs on it. Here’s Kitesurf running [https://silentspacemarine.com/](https://silentspacemarine.com/) from our little Doom [experiment](https://blog.cloudflare.com/doom-multiplayer-workers/) a few years ago.
 
+<div style="padding-top:53.46457990115321%"><iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/d0e3d78d3f2135f2a0f42cb6a882d110/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2Fd0e3d78d3f2135f2a0f42cb6a882d110%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:84%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe></div>
+
 ### Try it today in Browser Run
 
 You can try Kitesurf with Browser Run today, **available for free while in beta**, behind per-account [limits](https://developers.cloudflare.com/browser-run/limits/).
@@ -283,6 +286,8 @@ Check our [Developer Documentation](https://developers.cloudflare.com/browser-ru
 ### When is Kitesurf better?
 
 As of today, Kitesurf correctly renders pages like [TodoMVC](https://todomvc.com/) (vanilla, React, Vue, Angular, Preact), Wikipedia, Hacker News, the Cloudflare Blog, and much of the Cloudflare dashboard. We will keep improving Kitesurf and increasing the percentage of WPT tests that pass, to improve compatibility for more complex web pages.
+
+<div style="padding-top:53.46457990115321%"><iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/87f957139f360dbd005c4538510eb152/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2F87f957139f360dbd005c4538510eb152%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:84%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe></div>
 
 Kitesurf is great for AI agents that need to render pages but can accept the trade-offs of not using a full-featured, pixel-perfect Chromium browser. It is also excellent for automations and applications that rely on one-shot [Quick Actions](https://developers.cloudflare.com/browser-run/quick-actions/), such as extracting content from a page or generating PDFs or screenshots, for compatible sites.
 

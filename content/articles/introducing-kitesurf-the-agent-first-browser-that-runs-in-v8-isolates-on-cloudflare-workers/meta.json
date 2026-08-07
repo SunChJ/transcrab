@@ -1,22 +1,22 @@
 {
   "slug": "introducing-kitesurf-the-agent-first-browser-that-runs-in-v8-isolates-on-cloudflare-workers",
   "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
-  "date": "2026-08-07T02:49:04.583Z",
+  "date": "2026-08-07T06:15:51.162Z",
   "sourceUrl": "https://blog.cloudflare.com/kitesurf/",
   "targetLang": "zh",
   "extraction": {
     "selected": {
       "source": "readability",
-      "score": 1322,
+      "score": 1338,
       "metrics": {
-        "chars": 45824,
-        "paragraphs": 115,
+        "chars": 46906,
+        "paragraphs": 117,
         "headings": 14,
         "codeFences": 2,
         "images": 0,
         "htmlFigures": 10,
         "inlineSvgs": 0,
-        "score": 1322
+        "score": 1338
       },
       "url": "https://blog.cloudflare.com/kitesurf/"
     },
@@ -28,76 +28,76 @@
     "candidates": [
       {
         "source": "readability",
-        "score": 1322,
+        "score": 1338,
         "metrics": {
-          "chars": 45824,
-          "paragraphs": 115,
+          "chars": 46906,
+          "paragraphs": 117,
           "headings": 14,
           "codeFences": 2,
           "images": 0,
           "htmlFigures": 10,
           "inlineSvgs": 0,
-          "score": 1322
+          "score": 1338
         },
         "url": "https://blog.cloudflare.com/kitesurf/"
       },
       {
         "source": "variant-readability",
-        "score": 1322,
+        "score": 1338,
         "metrics": {
-          "chars": 45824,
-          "paragraphs": 115,
+          "chars": 46906,
+          "paragraphs": 117,
           "headings": 14,
           "codeFences": 2,
           "images": 0,
           "htmlFigures": 10,
           "inlineSvgs": 0,
-          "score": 1322
+          "score": 1338
         },
         "url": "https://blog.cloudflare.com/kitesurf/?output=1"
       },
       {
         "source": "variant-readability",
-        "score": 1322,
+        "score": 1338,
         "metrics": {
-          "chars": 45824,
-          "paragraphs": 115,
+          "chars": 46906,
+          "paragraphs": 117,
           "headings": 14,
           "codeFences": 2,
           "images": 0,
           "htmlFigures": 10,
           "inlineSvgs": 0,
-          "score": 1322
+          "score": 1338
         },
         "url": "https://blog.cloudflare.com/kitesurf/?amp=1"
       },
       {
         "source": "variant-readability",
-        "score": 1322,
+        "score": 1338,
         "metrics": {
-          "chars": 45824,
-          "paragraphs": 115,
+          "chars": 46906,
+          "paragraphs": 117,
           "headings": 14,
           "codeFences": 2,
           "images": 0,
           "htmlFigures": 10,
           "inlineSvgs": 0,
-          "score": 1322
+          "score": 1338
         },
         "url": "https://blog.cloudflare.com/kitesurf/?print=1"
       },
       {
         "source": "variant-readability",
-        "score": 1322,
+        "score": 1338,
         "metrics": {
-          "chars": 45824,
-          "paragraphs": 115,
+          "chars": 46906,
+          "paragraphs": 117,
           "headings": 14,
           "codeFences": 2,
           "images": 0,
           "htmlFigures": 10,
           "inlineSvgs": 0,
-          "score": 1322
+          "score": 1338
         },
         "url": "https://blog.cloudflare.com/kitesurf/?view=amp"
       }
@@ -126,7 +126,7 @@
         "glossary": []
       },
       "metrics": {
-        "words": 3620,
+        "words": 3638,
         "codeBlocks": 2,
         "tableRows": 0,
         "headings": 14,

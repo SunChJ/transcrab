@@ -10,7 +10,7 @@
 
 我们的无头浏览器自动化 API 产品 [Browser Run](https://developers.cloudflare.com/browser-run/) 随着 AI 的兴起取得了巨大增长。智能体需要浏览器来执行许多任务，而且在很多情况下没有浏览器就无法成功。
 
-但这里有个问题——像 Chromium 这样的浏览器引擎是为人类而非智能体构建的，它们带有 AI 模型根本不需要的开销。它们消耗大量内存和算力，以至于为每个智能体提供独立实例的成本高得令人望而却步，这使得 Web 的很大一部分只有参数知识更强、最先进也最昂贵的 AI 模型才能使用，同时把许多其他智能体应用拒之门外。
+但这里有个问题——像 Chromium 这样的浏览器引擎是为人类而非智能体构建的，它们带有 AI 模型根本不需要的开销。它们消耗大量内存和算力，以至于为每个智能体提供独立实例的成本高得令人望而却步，这使得 Web 的很大一部分只有参数量更大、内置知识更多、最先进也最昂贵的 AI 模型才能使用，同时把许多其他智能体应用拒之门外。
 
 我们应该给*所有*智能体一个在 AI 模型最看重的方面表现出色的浏览器，即使这意味着在仅对人类有用的方面做减法。例如：
 
@@ -26,7 +26,7 @@
 
 ## 一切如何开始
 
-Kitesurf 的起点和 Cloudflare 许多伟大想法一样。有人发现了某个有意思的东西，然后不知不觉间，他们就用一个看似不可能却又极具吸引力的想法“nerd snipe”（用技术难题勾住）了团队其他人。
+Kitesurf 的起点和 Cloudflare 许多伟大想法一样。有人发现了某个有意思的东西，然后不知不觉间，他们就会用一个看似不可能却又极具吸引力的想法，把团队其他人勾进这个深坑。
 
 我们的最初灵感来自 [obscura](https://github.com/h4ckf0r0day/obscura)，一个用 Rust 编写的、面向 AI 自动化的无头引擎，号称“没有 Chrome、没有 Node.js、没有任何依赖”。
 
@@ -149,61 +149,61 @@ Kitesurf 是真的能跑。它已经通过了大约 215,000+ 项 [WPT 测试](ht
 
 性能方面，Kitesurf 表现相当不错。下面是五次 Browser Run [quick-action](https://developers.cloudflare.com/browser-run/quick-actions/) 运行在 [14 个 URL 语料](https://kitesurf.cloudflare.app/corpus.txt)上的中位数，对比 Chromium 与 Kitesurf。
 
-**Metric**
+**指标**
 
 **Kitesurf**
 
-**Chromium (warm pool)**
+**Chromium（预热池）**
 
-**Kitesurf, relative**
+**Kitesurf 相对值**
 
-CPU: screenshot
+CPU：截图
 
 380 ms
 
 1,173 ms
 
-3.1× less CPU than Chromium
+CPU 消耗比 Chromium 少 3.1×
 
-CPU: HTML extraction
+CPU：HTML 提取
 
 229 ms
 
 877 ms
 
-3.8× less than Chromium
+CPU 消耗比 Chromium 少 3.8×
 
-Memory: screenshot
+内存：截图
 
 57.8 MiB
 
 271.0 MiB
 
-4.7× less than Chromium
+内存消耗比 Chromium 少 4.7×
 
-Memory: HTML extraction
+内存：HTML 提取
 
 39.4 MiB
 
 273.7 MiB
 
-7.0× less than Chromium
+内存消耗比 Chromium 少 7.0×
 
-Wall time: screenshot
+墙钟时间：截图
 
 1,148 ms
 
 637 ms
 
-1.8× slower than Chromium
+比 Chromium 慢 1.8×
 
-Wall time: HTML extraction
+墙钟时间：HTML 提取
 
 820 ms
 
 472 ms
 
-1.7× slower than Chromium
+比 Chromium 慢 1.7×
 
 秒表之争是 Chromium 赢了，因为一个已经见过这个页面的 [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) 总能打败冷启动的软件渲染器——而且今天它确实做到了，大约快 1.7 倍。这个差距大部分来自栅格化以及 JPEG/PNG 编码，我们会持续优化。
 
@@ -214,7 +214,7 @@ Wall time: HTML extraction
 我们在设计决策中强调了测试的重要性，但众所周知，无论你有多少测试，一个项目只有跑起 Doom 才算真正完成。下面就是 Kitesurf 运行我们几年前那个小 Doom [实验](https://blog.cloudflare.com/doom-multiplayer-workers/)里的 [https://silentspacemarine.com/](https://silentspacemarine.com/) 的画面。
 
 <div class="video-wrap" style="position:relative;padding-top:56.25%;margin:1.2rem 0;border-radius:10px;overflow:hidden;background:#000">
-<iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/d0e3d78d3f2135f2a0f42cb6a882d110/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2Fd0e3d78d3f2135f2a0f42cb6a882d110%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:100%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe>
+<div style="padding-top:53.46457990115321%"><iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/d0e3d78d3f2135f2a0f42cb6a882d110/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2Fd0e3d78d3f2135f2a0f42cb6a882d110%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:84%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe></div>
 </div>
 
 ### 今天就在 Browser Run 里试试
@@ -270,7 +270,7 @@ playground 一个有趣的特性是我们在 UI 中注入了 Chrome DevTools，�
 截至目前，Kitesurf 能正确渲染 [TodoMVC](https://todomvc.com/)（vanilla、React、Vue、Angular、Preact）、Wikipedia、Hacker News、Cloudflare Blog 以及 Cloudflare dashboard 的大部分页面。我们将持续改进 Kitesurf，提高 WPT 测试通过率，以提升对更复杂网页的兼容性。
 
 <div class="video-wrap" style="position:relative;padding-top:56.25%;margin:1.2rem 0;border-radius:10px;overflow:hidden;background:#000">
-<iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/87f957139f360dbd005c4538510eb152/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2F87f957139f360dbd005c4538510eb152%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:100%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe>
+<div style="padding-top:53.46457990115321%"><iframe src="https://customer-eq7kiuol0tk9chox.cloudflarestream.com/87f957139f360dbd005c4538510eb152/iframe?preload=true&amp;loop=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-eq7kiuol0tk9chox.cloudflarestream.com%2F87f957139f360dbd005c4538510eb152%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:84%" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe></div>
 </div>
 
 Kitesurf 非常适合需要渲染页面、但能接受不使用功能完整、像素级完美的 Chromium 这一取舍的 AI 智能体。对于依赖一次性 [Quick Actions](https://developers.cloudflare.com/browser-run/quick-actions/)（如从页面提取内容或生成 PDF、截图）且站点兼容的自动化和应用来说，它同样出色。
