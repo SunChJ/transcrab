@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 886,
+    "metrics": {
+      "chars": 29804,
+      "paragraphs": 68,
+      "headings": 18,
+      "codeFences": 2,
+      "images": 0,
+      "htmlFigures": 6,
+      "inlineSvgs": 0,
+      "score": 886
+    },
+    "url": "https://blog.cloudflare.com/cloudflare-os/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 886,
+      "metrics": {
+        "chars": 29804,
+        "paragraphs": 68,
+        "headings": 18,
+        "codeFences": 2,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 886
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-os/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 886,
+      "metrics": {
+        "chars": 29804,
+        "paragraphs": 68,
+        "headings": 18,
+        "codeFences": 2,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 886
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-os/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 886,
+      "metrics": {
+        "chars": 29804,
+        "paragraphs": 68,
+        "headings": 18,
+        "codeFences": 2,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 886
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-os/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 886,
+      "metrics": {
+        "chars": 29804,
+        "paragraphs": 68,
+        "headings": 18,
+        "codeFences": 2,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 886
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-os/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 886,
+      "metrics": {
+        "chars": 29804,
+        "paragraphs": 68,
+        "headings": 18,
+        "codeFences": 2,
+        "images": 0,
+        "htmlFigures": 6,
+        "inlineSvgs": 0,
+        "score": 886
+      },
+      "url": "https://blog.cloudflare.com/cloudflare-os/?view=amp"
+    }
+  ]
+}
