@@ -101,3 +101,31 @@ test('transcrab-core: buildTranslatePrompt contains contract and content', () =>
   assert.match(prompt, /---/);
   assert.match(prompt, /# T/);
 });
+
+test('transcrab-core: preserves iframe/video embeds and their aspect-ratio wrapper', async () => {
+  const html = `<!doctype html>
+  <html><head><meta charset="utf-8" /><title>Embedded Media</title></head>
+  <body>
+    <article>
+      <p>Intro text before the video.</p>
+      <div class="html-block"><div style="padding-top:56.25%">
+        <iframe src="https://customer.example.com/video1/iframe?preload=true&amp;loop=true" loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:100%" allow="autoplay; encrypted-media" allowfullscreen="true"></iframe>
+      </div></div>
+      <p>Text between embeds.</p>
+      <video src="https://example.com/clip.mp4" controls></video>
+      <p>Trailing paragraph.</p>
+    </article>
+  </body></html>`;
+
+  const { markdown } = await htmlToMarkdown(html, 'https://example.com/embed');
+  assert.match(markdown, /Intro text before the video\./);
+  assert.match(markdown, /Trailing paragraph\./);
+  // iframe survives with its wrapper (aspect-ratio keeps layout for absolute iframes).
+  assert.match(markdown, /<div style="padding-top:56\.25%">\s*<iframe src="https:\/\/customer\.example\.com\/video1\/iframe\?preload=true&amp;loop=true"/);
+  assert.match(markdown, /<video[^>]*src="https:\/\/example\.com\/clip\.mp4"[^>]*controls[^>]*>/);
+});
+
+test('transcrab-core: buildTranslatePrompt contract asks to keep media embeds', () => {
+  const prompt = buildTranslatePrompt('# T\n\nBody', 'zh');
+  assert.match(prompt, /<iframe>\/<video>\/<audio> 等媒体嵌入 HTML，必须原样保留/);
+});

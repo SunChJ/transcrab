@@ -20,6 +20,10 @@ export async function htmlToMarkdown(html, baseUrl) {
   const langHints = collectCodeLangHints(dom.window.document);
 
   const directContentHtml = pickDirectContentHtml(dom.window.document);
+  // Readability strips <iframe> from its output. Swap embeds for placeholder
+  // images before parsing and restore them afterwards so video demos and
+  // interactive embeds survive extraction.
+  protectEmbeddedIframes(dom.window.document);
   const reader = new Readability(dom.window.document);
   const article = reader.parse();
 
@@ -31,6 +35,7 @@ export async function htmlToMarkdown(html, baseUrl) {
     '';
 
   const contentDom = new JSDOM(contentHtml, { url: baseUrl });
+  restoreEmbeddedIframes(contentDom.window.document);
   applyCodeLangHints(contentDom.window.document, langHints);
   absolutizeAssetUrls(contentDom.window.document, baseUrl);
   const patchedHtml = contentDom.window.document.body?.innerHTML || contentHtml;
@@ -47,7 +52,28 @@ export async function htmlToMarkdown(html, baseUrl) {
     'figure', 'figcaption', 'svg', 'defs', 'g', 'path', 'rect', 'circle', 'ellipse',
     'line', 'polyline', 'polygon', 'text', 'marker', 'pattern', 'lineargradient',
     'radialgradient', 'stop', 'clippath', 'mask', 'symbol', 'use',
+    // Embedded media (video demos, interactive embeds) must survive extraction so
+    // the translated page does not lose content the original page shows.
+    'iframe', 'video', 'audio',
   ]);
+
+  // Keep the aspect-ratio wrapper around embedded media (e.g. Cloudflare blog's
+  // <div style="padding-top:…"><iframe/></div>) so absolute-positioned iframes
+  // keep their layout instead of collapsing to zero height.
+  turndown.addRule('embeddedMediaWrapper', {
+    filter(node) {
+      if (['IFRAME', 'VIDEO', 'AUDIO'].includes(node.nodeName)) return false;
+      if (node.nodeName !== 'DIV') return false;
+      const kids = node.children || [];
+      for (let i = 0; i < kids.length; i++) {
+        if (['IFRAME', 'VIDEO', 'AUDIO'].includes(kids[i].nodeName)) return true;
+      }
+      return false;
+    },
+    replacement(_content, node) {
+      return '\n\n' + node.outerHTML + '\n\n';
+    },
+  });
 
   const fenceLangCounts = new Map();
   const bump = (lang) => {
@@ -109,6 +135,68 @@ export async function htmlToMarkdown(html, baseUrl) {
   md = normalizeLinkedImageBlocks(md);
 
   return { title: title.trim(), markdown: md.trim() + '\n' };
+}
+
+// 1x1 transparent GIF used as a placeholder so Readability keeps the position of
+// an <iframe> embed (which it would otherwise strip from the extracted content).
+const TRANSCRAB_EMBED_DATA_URI =
+  'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+
+function protectEmbeddedIframes(doc) {
+  for (const el of doc.querySelectorAll('iframe')) {
+    const root = findEmbedContainer(el);
+    const ph = doc.createElement('img');
+    ph.setAttribute('src', TRANSCRAB_EMBED_DATA_URI);
+    ph.setAttribute('alt', '[video]');
+    ph.setAttribute('data-embed-html', Buffer.from(root.outerHTML, 'utf8').toString('base64'));
+    root.parentNode?.replaceChild(ph, root);
+  }
+}
+
+// Climb from an <iframe> up through bare wrapper <div>s (aspect-ratio containers,
+// video-block wrappers) that carry no text and no sibling content, so the whole
+// embed block — including its sizing styles — survives Readability as one unit.
+function findEmbedContainer(iframeEl) {
+  let node = iframeEl;
+  while (node.parentElement) {
+    const p = node.parentElement;
+    if (p.nodeName !== 'DIV') break;
+    const text = (p.textContent || '').replace(/\s+/g, '');
+    if (text) break;
+    const kids = p.childNodes;
+    let hasSiblingElement = false;
+    for (let i = 0; i < kids.length; i++) {
+      const c = kids[i];
+      if (c === node) continue;
+      if (c.nodeType === 1) {
+        hasSiblingElement = true;
+        break;
+      }
+    }
+    if (hasSiblingElement) break;
+    node = p;
+  }
+  return node;
+}
+
+function restoreEmbeddedIframes(doc) {
+  const placeholders = doc.querySelectorAll('img[data-embed-html]');
+  for (const ph of placeholders) {
+    const raw = ph.getAttribute('data-embed-html') || '';
+    if (!raw) continue;
+    const html = Buffer.from(raw, 'base64').toString('utf8');
+    try {
+      // Parse the embed HTML with the placeholder's own document so we do not
+      // depend on a module-level JSDOM instance.
+      const wrapper = doc.createElement('div');
+      wrapper.innerHTML = html;
+      const frag = doc.createDocumentFragment();
+      while (wrapper.firstChild) frag.appendChild(wrapper.firstChild);
+      ph.parentNode?.replaceChild(frag, ph);
+    } catch {
+      // Leave the placeholder in place if restoration fails.
+    }
+  }
 }
 
 function pickDirectContentHtml(doc) {
