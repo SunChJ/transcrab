@@ -1,0 +1,147 @@
+{
+  "slug": "introducing-kitesurf-the-agent-first-browser-that-runs-in-v8-isolates-on-cloudflare-workers",
+  "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+  "date": "2026-08-07T02:49:04.583Z",
+  "sourceUrl": "https://blog.cloudflare.com/kitesurf/",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 1322,
+      "metrics": {
+        "chars": 45824,
+        "paragraphs": 115,
+        "headings": 14,
+        "codeFences": 2,
+        "images": 0,
+        "htmlFigures": 10,
+        "inlineSvgs": 0,
+        "score": 1322
+      },
+      "url": "https://blog.cloudflare.com/kitesurf/"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 1322,
+        "metrics": {
+          "chars": 45824,
+          "paragraphs": 115,
+          "headings": 14,
+          "codeFences": 2,
+          "images": 0,
+          "htmlFigures": 10,
+          "inlineSvgs": 0,
+          "score": 1322
+        },
+        "url": "https://blog.cloudflare.com/kitesurf/"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1322,
+        "metrics": {
+          "chars": 45824,
+          "paragraphs": 115,
+          "headings": 14,
+          "codeFences": 2,
+          "images": 0,
+          "htmlFigures": 10,
+          "inlineSvgs": 0,
+          "score": 1322
+        },
+        "url": "https://blog.cloudflare.com/kitesurf/?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1322,
+        "metrics": {
+          "chars": 45824,
+          "paragraphs": 115,
+          "headings": 14,
+          "codeFences": 2,
+          "images": 0,
+          "htmlFigures": 10,
+          "inlineSvgs": 0,
+          "score": 1322
+        },
+        "url": "https://blog.cloudflare.com/kitesurf/?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1322,
+        "metrics": {
+          "chars": 45824,
+          "paragraphs": 115,
+          "headings": 14,
+          "codeFences": 2,
+          "images": 0,
+          "htmlFigures": 10,
+          "inlineSvgs": 0,
+          "score": 1322
+        },
+        "url": "https://blog.cloudflare.com/kitesurf/?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 1322,
+        "metrics": {
+          "chars": 45824,
+          "paragraphs": 115,
+          "headings": 14,
+          "codeFences": 2,
+          "images": 0,
+          "htmlFigures": 10,
+          "inlineSvgs": 0,
+          "score": 1322
+        },
+        "url": "https://blog.cloudflare.com/kitesurf/?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.88,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 3620,
+        "codeBlocks": 2,
+        "tableRows": 0,
+        "headings": 14,
+        "links": 56,
+        "businessHits": 1,
+        "lifeHits": 2,
+        "isLong": true,
+        "isVeryLong": false,
+        "isTechnical": true
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "检测到代码块或表格，判定为技术主题",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}
