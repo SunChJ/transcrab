@@ -1,0 +1,19 @@
+{
+  "selected": {
+    "source": "github-raw",
+    "score": 999,
+    "metrics": {
+      "chars": 228380,
+      "lines": 2941,
+      "headings": 94
+    },
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/refs/heads/main/packages/agent/docs/harness.md"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [],
+  "note": "GitHub page extraction returned only file chrome; source was recovered from the canonical Raw link."
+}
