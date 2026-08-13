@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 4331,
+    "metrics": {
+      "chars": 167841,
+      "paragraphs": 213,
+      "headings": 1,
+      "codeFences": 1,
+      "images": 24,
+      "htmlFigures": 0,
+      "inlineSvgs": 20,
+      "score": 4331
+    },
+    "url": "https://www.dyna.co/dyna-2#introduction"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 4331,
+      "metrics": {
+        "chars": 167841,
+        "paragraphs": 213,
+        "headings": 1,
+        "codeFences": 1,
+        "images": 24,
+        "htmlFigures": 0,
+        "inlineSvgs": 20,
+        "score": 4331
+      },
+      "url": "https://www.dyna.co/dyna-2#introduction"
+    },
+    {
+      "source": "variant-readability",
+      "score": 4331,
+      "metrics": {
+        "chars": 167841,
+        "paragraphs": 213,
+        "headings": 1,
+        "codeFences": 1,
+        "images": 24,
+        "htmlFigures": 0,
+        "inlineSvgs": 20,
+        "score": 4331
+      },
+      "url": "https://www.dyna.co/dyna-2?output=1#introduction"
+    },
+    {
+      "source": "variant-readability",
+      "score": 4331,
+      "metrics": {
+        "chars": 167841,
+        "paragraphs": 213,
+        "headings": 1,
+        "codeFences": 1,
+        "images": 24,
+        "htmlFigures": 0,
+        "inlineSvgs": 20,
+        "score": 4331
+      },
+      "url": "https://www.dyna.co/dyna-2?amp=1#introduction"
+    },
+    {
+      "source": "variant-readability",
+      "score": 4331,
+      "metrics": {
+        "chars": 167841,
+        "paragraphs": 213,
+        "headings": 1,
+        "codeFences": 1,
+        "images": 24,
+        "htmlFigures": 0,
+        "inlineSvgs": 20,
+        "score": 4331
+      },
+      "url": "https://www.dyna.co/dyna-2?print=1#introduction"
+    },
+    {
+      "source": "variant-readability",
+      "score": 4331,
+      "metrics": {
+        "chars": 167841,
+        "paragraphs": 213,
+        "headings": 1,
+        "codeFences": 1,
+        "images": 24,
+        "htmlFigures": 0,
+        "inlineSvgs": 20,
+        "score": 4331
+      },
+      "url": "https://www.dyna.co/dyna-2?view=amp#introduction"
+    }
+  ]
+}
