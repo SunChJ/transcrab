@@ -1,0 +1,146 @@
+{
+  "slug": "anger-anxiety-and-agency",
+  "title": "Anger, Anxiety and Agency",
+  "date": "2026-08-24T07:45:33.608Z",
+  "sourceUrl": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 191,
+      "metrics": {
+        "chars": 6275,
+        "paragraphs": 16,
+        "headings": 0,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 191
+      },
+      "url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 0
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 191,
+        "metrics": {
+          "chars": 6275,
+          "paragraphs": 16,
+          "headings": 0,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 191
+        },
+        "url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/"
+      },
+      {
+        "source": "variant-readability",
+        "score": 191,
+        "metrics": {
+          "chars": 6275,
+          "paragraphs": 16,
+          "headings": 0,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 191
+        },
+        "url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 191,
+        "metrics": {
+          "chars": 6275,
+          "paragraphs": 16,
+          "headings": 0,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 191
+        },
+        "url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 191,
+        "metrics": {
+          "chars": 6275,
+          "paragraphs": 16,
+          "headings": 0,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 191
+        },
+        "url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 191,
+        "metrics": {
+          "chars": 6275,
+          "paragraphs": 16,
+          "headings": 0,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 191
+        },
+        "url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "conversational",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "life",
+      "confidence": 0.76,
+      "resolved": {
+        "mode": "refined",
+        "style": "conversational",
+        "audience": "general",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 1049,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 0,
+        "links": 8,
+        "businessHits": 1,
+        "lifeHits": 3,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "生活叙事关键词命中较高，判定为 life"
+      ]
+    }
+  }
+}
