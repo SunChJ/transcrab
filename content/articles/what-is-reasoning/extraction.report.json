@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 217,
+    "metrics": {
+      "chars": 4423,
+      "paragraphs": 17,
+      "headings": 3,
+      "codeFences": 3,
+      "images": 1,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 217
+    },
+    "url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 217,
+      "metrics": {
+        "chars": 4423,
+        "paragraphs": 17,
+        "headings": 3,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 217
+      },
+      "url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 217,
+      "metrics": {
+        "chars": 4423,
+        "paragraphs": 17,
+        "headings": 3,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 217
+      },
+      "url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 217,
+      "metrics": {
+        "chars": 4423,
+        "paragraphs": 17,
+        "headings": 3,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 217
+      },
+      "url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 217,
+      "metrics": {
+        "chars": 4423,
+        "paragraphs": 17,
+        "headings": 3,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 217
+      },
+      "url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 217,
+      "metrics": {
+        "chars": 4423,
+        "paragraphs": 17,
+        "headings": 3,
+        "codeFences": 3,
+        "images": 1,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 217
+      },
+      "url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/?view=amp"
+    }
+  ]
+}
