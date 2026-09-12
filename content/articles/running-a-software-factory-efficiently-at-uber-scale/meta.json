@@ -1,0 +1,74 @@
+{
+  "slug": "running-a-software-factory-efficiently-at-uber-scale",
+  "title": "Running a Software Factory Efficiently at Uber Scale",
+  "date": "2026-09-12T04:38:35.740Z",
+  "sourceUrl": "https://x.com/ubereng/status/2093444169037762840?s=12&t=oDjsBy-f-VCdrYC6Q655dA",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "x-article",
+      "score": 999
+    },
+    "candidates": [
+      {
+        "source": "x-article",
+        "score": 999,
+        "metrics": {
+          "chars": 19370,
+          "paragraphs": 73,
+          "headings": 7,
+          "codeFences": 0,
+          "images": 15,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 799
+        }
+      }
+    ],
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    }
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "business",
+    "style": "business",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "business",
+      "confidence": 0.78,
+      "resolved": {
+        "mode": "refined",
+        "style": "business",
+        "audience": "business",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 2790,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 7,
+        "links": 1,
+        "businessHits": 6,
+        "lifeHits": 3,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "商业关键词命中较高，判定为 business"
+      ]
+    }
+  }
+}
