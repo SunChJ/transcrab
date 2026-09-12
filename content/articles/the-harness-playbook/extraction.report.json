@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 6810,
+    "metrics": {
+      "chars": 371724,
+      "paragraphs": 511,
+      "headings": 74,
+      "codeFences": 42,
+      "images": 0,
+      "htmlFigures": 33,
+      "inlineSvgs": 11,
+      "score": 6810
+    },
+    "url": "https://stencil.so/blog/harness-playbook"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 6810,
+      "metrics": {
+        "chars": 371724,
+        "paragraphs": 511,
+        "headings": 74,
+        "codeFences": 42,
+        "images": 0,
+        "htmlFigures": 33,
+        "inlineSvgs": 11,
+        "score": 6810
+      },
+      "url": "https://stencil.so/blog/harness-playbook"
+    },
+    {
+      "source": "variant-readability",
+      "score": 6810,
+      "metrics": {
+        "chars": 371724,
+        "paragraphs": 511,
+        "headings": 74,
+        "codeFences": 42,
+        "images": 0,
+        "htmlFigures": 33,
+        "inlineSvgs": 11,
+        "score": 6810
+      },
+      "url": "https://stencil.so/blog/harness-playbook?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 6810,
+      "metrics": {
+        "chars": 371724,
+        "paragraphs": 511,
+        "headings": 74,
+        "codeFences": 42,
+        "images": 0,
+        "htmlFigures": 33,
+        "inlineSvgs": 11,
+        "score": 6810
+      },
+      "url": "https://stencil.so/blog/harness-playbook?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 6810,
+      "metrics": {
+        "chars": 371724,
+        "paragraphs": 511,
+        "headings": 74,
+        "codeFences": 42,
+        "images": 0,
+        "htmlFigures": 33,
+        "inlineSvgs": 11,
+        "score": 6810
+      },
+      "url": "https://stencil.so/blog/harness-playbook?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 6810,
+      "metrics": {
+        "chars": 371724,
+        "paragraphs": 511,
+        "headings": 74,
+        "codeFences": 42,
+        "images": 0,
+        "htmlFigures": 33,
+        "inlineSvgs": 11,
+        "score": 6810
+      },
+      "url": "https://stencil.so/blog/harness-playbook?view=amp"
+    }
+  ]
+}

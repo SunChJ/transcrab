@@ -1,0 +1,147 @@
+{
+  "slug": "the-harness-playbook",
+  "title": "The Harness Playbook",
+  "date": "2026-09-12T04:42:08.669Z",
+  "sourceUrl": "https://stencil.so/blog/harness-playbook",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 6810,
+      "metrics": {
+        "chars": 371724,
+        "paragraphs": 511,
+        "headings": 74,
+        "codeFences": 42,
+        "images": 0,
+        "htmlFigures": 33,
+        "inlineSvgs": 11,
+        "score": 6810
+      },
+      "url": "https://stencil.so/blog/harness-playbook"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 6810,
+        "metrics": {
+          "chars": 371724,
+          "paragraphs": 511,
+          "headings": 74,
+          "codeFences": 42,
+          "images": 0,
+          "htmlFigures": 33,
+          "inlineSvgs": 11,
+          "score": 6810
+        },
+        "url": "https://stencil.so/blog/harness-playbook"
+      },
+      {
+        "source": "variant-readability",
+        "score": 6810,
+        "metrics": {
+          "chars": 371724,
+          "paragraphs": 511,
+          "headings": 74,
+          "codeFences": 42,
+          "images": 0,
+          "htmlFigures": 33,
+          "inlineSvgs": 11,
+          "score": 6810
+        },
+        "url": "https://stencil.so/blog/harness-playbook?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 6810,
+        "metrics": {
+          "chars": 371724,
+          "paragraphs": 511,
+          "headings": 74,
+          "codeFences": 42,
+          "images": 0,
+          "htmlFigures": 33,
+          "inlineSvgs": 11,
+          "score": 6810
+        },
+        "url": "https://stencil.so/blog/harness-playbook?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 6810,
+        "metrics": {
+          "chars": 371724,
+          "paragraphs": 511,
+          "headings": 74,
+          "codeFences": 42,
+          "images": 0,
+          "htmlFigures": 33,
+          "inlineSvgs": 11,
+          "score": 6810
+        },
+        "url": "https://stencil.so/blog/harness-playbook?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 6810,
+        "metrics": {
+          "chars": 371724,
+          "paragraphs": 511,
+          "headings": 74,
+          "codeFences": 42,
+          "images": 0,
+          "htmlFigures": 33,
+          "inlineSvgs": 11,
+          "score": 6810
+        },
+        "url": "https://stencil.so/blog/harness-playbook?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 11,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "technical",
+    "style": "technical",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "technology",
+      "confidence": 0.88,
+      "resolved": {
+        "mode": "refined",
+        "style": "technical",
+        "audience": "technical",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 16924,
+        "codeBlocks": 26,
+        "tableRows": 0,
+        "headings": 56,
+        "links": 30,
+        "businessHits": 4,
+        "lifeHits": 5,
+        "isLong": true,
+        "isVeryLong": true,
+        "isTechnical": true
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "检测到代码块或表格，判定为技术主题",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}
