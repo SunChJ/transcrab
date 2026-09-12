@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 615,
+    "metrics": {
+      "chars": 29687,
+      "paragraphs": 50,
+      "headings": 7,
+      "codeFences": 10,
+      "images": 0,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 615
+    },
+    "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 615,
+      "metrics": {
+        "chars": 29687,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 10,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 615
+      },
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 615,
+      "metrics": {
+        "chars": 29687,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 10,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 615
+      },
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 615,
+      "metrics": {
+        "chars": 29687,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 10,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 615
+      },
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 615,
+      "metrics": {
+        "chars": 29687,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 10,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 615
+      },
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 615,
+      "metrics": {
+        "chars": 29687,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 10,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 615
+      },
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/?view=amp"
+    }
+  ]
+}
