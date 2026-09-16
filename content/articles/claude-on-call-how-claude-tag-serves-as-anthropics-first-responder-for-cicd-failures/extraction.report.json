@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 655,
+    "metrics": {
+      "chars": 13727,
+      "paragraphs": 50,
+      "headings": 7,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 5,
+      "inlineSvgs": 0,
+      "score": 655
+    },
+    "url": "https://claude.com/blog/ai-ci-cd-on-call"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 655,
+      "metrics": {
+        "chars": 13727,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 5,
+        "inlineSvgs": 0,
+        "score": 655
+      },
+      "url": "https://claude.com/blog/ai-ci-cd-on-call"
+    },
+    {
+      "source": "variant-readability",
+      "score": 655,
+      "metrics": {
+        "chars": 13727,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 5,
+        "inlineSvgs": 0,
+        "score": 655
+      },
+      "url": "https://claude.com/blog/ai-ci-cd-on-call?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 655,
+      "metrics": {
+        "chars": 13727,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 5,
+        "inlineSvgs": 0,
+        "score": 655
+      },
+      "url": "https://claude.com/blog/ai-ci-cd-on-call?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 655,
+      "metrics": {
+        "chars": 13727,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 5,
+        "inlineSvgs": 0,
+        "score": 655
+      },
+      "url": "https://claude.com/blog/ai-ci-cd-on-call?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 655,
+      "metrics": {
+        "chars": 13727,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 5,
+        "inlineSvgs": 0,
+        "score": 655
+      },
+      "url": "https://claude.com/blog/ai-ci-cd-on-call?view=amp"
+    }
+  ]
+}

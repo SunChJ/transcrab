@@ -1,0 +1,146 @@
+{
+  "slug": "claude-on-call-how-claude-tag-serves-as-anthropics-first-responder-for-cicd-failures",
+  "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+  "date": "2026-09-16T07:34:53.707Z",
+  "sourceUrl": "https://claude.com/blog/ai-ci-cd-on-call",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 655,
+      "metrics": {
+        "chars": 13727,
+        "paragraphs": 50,
+        "headings": 7,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 5,
+        "inlineSvgs": 0,
+        "score": 655
+      },
+      "url": "https://claude.com/blog/ai-ci-cd-on-call"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 655,
+        "metrics": {
+          "chars": 13727,
+          "paragraphs": 50,
+          "headings": 7,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 5,
+          "inlineSvgs": 0,
+          "score": 655
+        },
+        "url": "https://claude.com/blog/ai-ci-cd-on-call"
+      },
+      {
+        "source": "variant-readability",
+        "score": 655,
+        "metrics": {
+          "chars": 13727,
+          "paragraphs": 50,
+          "headings": 7,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 5,
+          "inlineSvgs": 0,
+          "score": 655
+        },
+        "url": "https://claude.com/blog/ai-ci-cd-on-call?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 655,
+        "metrics": {
+          "chars": 13727,
+          "paragraphs": 50,
+          "headings": 7,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 5,
+          "inlineSvgs": 0,
+          "score": 655
+        },
+        "url": "https://claude.com/blog/ai-ci-cd-on-call?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 655,
+        "metrics": {
+          "chars": 13727,
+          "paragraphs": 50,
+          "headings": 7,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 5,
+          "inlineSvgs": 0,
+          "score": 655
+        },
+        "url": "https://claude.com/blog/ai-ci-cd-on-call?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 655,
+        "metrics": {
+          "chars": 13727,
+          "paragraphs": 50,
+          "headings": 7,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 5,
+          "inlineSvgs": 0,
+          "score": 655
+        },
+        "url": "https://claude.com/blog/ai-ci-cd-on-call?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "business",
+    "style": "business",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "business",
+      "confidence": 0.78,
+      "resolved": {
+        "mode": "refined",
+        "style": "business",
+        "audience": "business",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 2024,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 7,
+        "links": 16,
+        "businessHits": 2,
+        "lifeHits": 2,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "商业关键词命中较高，判定为 business"
+      ]
+    }
+  }
+}
