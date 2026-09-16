@@ -1,0 +1,146 @@
+{
+  "slug": "agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+  "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+  "date": "2026-09-16T07:24:59.897Z",
+  "sourceUrl": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 631,
+      "metrics": {
+        "chars": 11042,
+        "paragraphs": 42,
+        "headings": 9,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 7,
+        "inlineSvgs": 0,
+        "score": 631
+      },
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 631,
+        "metrics": {
+          "chars": 11042,
+          "paragraphs": 42,
+          "headings": 9,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 7,
+          "inlineSvgs": 0,
+          "score": 631
+        },
+        "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
+      },
+      {
+        "source": "variant-readability",
+        "score": 631,
+        "metrics": {
+          "chars": 11042,
+          "paragraphs": 42,
+          "headings": 9,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 7,
+          "inlineSvgs": 0,
+          "score": 631
+        },
+        "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 631,
+        "metrics": {
+          "chars": 11042,
+          "paragraphs": 42,
+          "headings": 9,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 7,
+          "inlineSvgs": 0,
+          "score": 631
+        },
+        "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 631,
+        "metrics": {
+          "chars": 11042,
+          "paragraphs": 42,
+          "headings": 9,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 7,
+          "inlineSvgs": 0,
+          "score": 631
+        },
+        "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 631,
+        "metrics": {
+          "chars": 11042,
+          "paragraphs": 42,
+          "headings": 9,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 7,
+          "inlineSvgs": 0,
+          "score": 631
+        },
+        "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "conversational",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "life",
+      "confidence": 0.76,
+      "resolved": {
+        "mode": "refined",
+        "style": "conversational",
+        "audience": "general",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 1642,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 9,
+        "links": 5,
+        "businessHits": 2,
+        "lifeHits": 5,
+        "isLong": false,
+        "isVeryLong": false,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "生活叙事关键词命中较高，判定为 life"
+      ]
+    }
+  }
+}

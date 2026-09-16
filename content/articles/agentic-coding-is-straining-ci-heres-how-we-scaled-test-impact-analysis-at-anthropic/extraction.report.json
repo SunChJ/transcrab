@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 631,
+    "metrics": {
+      "chars": 11042,
+      "paragraphs": 42,
+      "headings": 9,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 7,
+      "inlineSvgs": 0,
+      "score": 631
+    },
+    "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 631,
+      "metrics": {
+        "chars": 11042,
+        "paragraphs": 42,
+        "headings": 9,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 7,
+        "inlineSvgs": 0,
+        "score": 631
+      },
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
+    },
+    {
+      "source": "variant-readability",
+      "score": 631,
+      "metrics": {
+        "chars": 11042,
+        "paragraphs": 42,
+        "headings": 9,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 7,
+        "inlineSvgs": 0,
+        "score": 631
+      },
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 631,
+      "metrics": {
+        "chars": 11042,
+        "paragraphs": 42,
+        "headings": 9,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 7,
+        "inlineSvgs": 0,
+        "score": 631
+      },
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 631,
+      "metrics": {
+        "chars": 11042,
+        "paragraphs": 42,
+        "headings": 9,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 7,
+        "inlineSvgs": 0,
+        "score": 631
+      },
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 631,
+      "metrics": {
+        "chars": 11042,
+        "paragraphs": 42,
+        "headings": 9,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 7,
+        "inlineSvgs": 0,
+        "score": 631
+      },
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic?view=amp"
+    }
+  ]
+}
